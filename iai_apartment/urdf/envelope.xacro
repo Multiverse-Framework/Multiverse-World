@@ -1,0 +1,243 @@
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="envelope">
+
+  <xacro:macro name="envelope_macro" params="name parent *origin">
+
+    <joint name="${name}" type="fixed">
+      <xacro:insert_block name="origin" />
+      <parent link="${parent}" />
+      <child link="envelope_root" />
+    </joint>
+    <link name="envelope_root" />
+
+    <!-- things and stuff -->
+    <joint name="walls_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 -0.2" />
+      <parent link="envelope_root" />
+      <child link="walls" />
+    </joint>
+    <link name="walls">
+      <visual>
+        <geometry>
+          <mesh filename="package://iai_apartment/meshes/visual/walls.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0.505224 -1.81425 1.73439" />
+        <geometry>
+          <box size="18.76044 0.1285 3.0517" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="-4.63823 3.27776 1.73439" />
+        <geometry>
+          <box size="8.47354 0.1285 3.0517" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="5.87824  3.27776 1.73439" />
+        <geometry>
+          <box size="8.2886 0.1285 3.0517" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="9.98022 0.713447 1.73439" />
+        <geometry>
+          <box size="0.189552 4.9669 3.0517" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="-8.875 0.713447 1.73439" />
+        <geometry>
+          <box size="0.189552 4.9669 3.0517" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="windows_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 -0.2" />
+      <parent link="envelope_root" />
+      <child link="windows" />
+    </joint>
+    <link name="windows">
+      <visual>
+        <geometry>
+          <mesh filename="package://iai_apartment/meshes/visual/windows_without_4.dae" />
+        </geometry>
+      </visual>
+    </link>
+
+    <!-- Window 4 -->
+    <joint name="window4_frame_joint" type="fixed">
+      <origin xyz="0.671098 3.37273 1.72145" rpy="0.0 0.0 ${-pi/2}"/>
+      <parent link="walls" />
+      <child link="window4_frame" />
+    </joint>
+    <link name="window4_frame">
+      <visual>
+        <geometry>
+          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Frame.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 1.42883" />
+        <geometry>
+          <box size="0.02 2.1354 0.185552" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0.795222" />
+        <geometry>
+          <box size="0.02 2.1354 0.37828" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 -1.49481" />
+        <geometry>
+          <box size="0.02 2.1354 0.053592" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0.992126 0" />
+        <geometry>
+          <box size="0.02 0.151148 3.04322" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 -0.992126 0" />
+        <geometry>
+          <box size="0.02 0.151148 3.04322" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0" />
+        <geometry>
+          <box size="0.02 0.146252 3.04322" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="window4_right_joint" type="revolute">
+      <origin xyz="0 -0.916552 -0.425471" />
+      <parent link="window4_frame" />
+      <child link="window4_right" />
+      <axis xyz="0 0 -1" />
+      <limit effort="1000.0" lower="0.0" upper="1.5708" velocity="1.5708" />
+    </joint>
+    <link name="window4_right">
+      <visual>
+        <geometry>
+          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Right.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0.421713 0" />
+        <geometry>
+          <box size="0.02 0.843426 2.0631" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="window4_right_handle_rotation_joint" type="revolute">
+      <origin xyz="0.017383 0.834107 0.0" rpy="0 0 0" />
+      <parent link="window4_right" />
+      <child link="window4_right_handle_rotation" />
+      <axis xyz="-1 0 0" />
+      <limit effort="1000.0" lower="0.0" upper="1.5708" velocity="1.5708" />
+    </joint>
+    <link name="window4_right_handle_rotation"/>
+
+    <joint name="window4_right_handle_joint" type="fixed">
+      <origin xyz="0.037617 0 -0.057755" rpy="0 0 0" />
+      <parent link="window4_right_handle_rotation" />
+      <child link="window4_right_handle" />
+    </joint>
+    <link name="window4_right_handle">
+      <visual>
+        <geometry>
+          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Handle.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.057814" rpy="0 ${pi/2} 0" />
+        <geometry>
+          <cylinder length="0.075236" radius="0.008" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0.029618 0 0" rpy="0 0 0" />
+        <geometry>
+          <cylinder length="0.131626" radius="0.008" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0.011142 0 -0.057813" rpy="0 ${pi/2} 0" />
+        <geometry>
+          <cylinder length="0.052952" radius="0.008" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="window4_left_joint" type="revolute">
+      <origin xyz="0.00162 0.929112 -0.425471" />
+      <parent link="window4_frame" />
+      <child link="window4_left" />
+      <axis xyz="0 0 1" />
+      <limit effort="1000.0" lower="0.0" upper="1.5708" velocity="1.5708" />
+    </joint>
+    <link name="window4_left">
+      <visual>
+        <geometry>
+          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Left.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 -0.43203 0" />
+        <geometry>
+          <box size="0.02 0.86406 2.0631" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="window4_left_handle_rotation_joint" type="revolute">
+      <origin xyz="0.017383 -0.834107 0.0" rpy="0 0 0" />
+      <parent link="window4_left" />
+      <child link="window4_left_handle_rotation" />
+      <axis xyz="1 0 0" />
+      <limit effort="1000.0" lower="0.0" upper="1.5708" velocity="1.5708" />
+    </joint>
+    <link name="window4_left_handle_rotation"/>
+
+    <joint name="window4_left_handle_joint" type="fixed">
+      <origin xyz="0.037617 0 -0.057755" rpy="0 0 0" />
+      <parent link="window4_left_handle_rotation" />
+      <child link="window4_left_handle" />
+    </joint>
+    <link name="window4_left_handle">
+      <visual>
+        <geometry>
+          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Handle.dae" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.057814" rpy="0 ${pi/2} 0" />
+        <geometry>
+          <cylinder length="0.075236" radius="0.008" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0.029618 0 0" rpy="0 0 0" />
+        <geometry>
+          <cylinder length="0.131626" radius="0.008" />
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0.011142 0 -0.057813" rpy="0 ${pi/2} 0" />
+        <geometry>
+          <cylinder length="0.052952" radius="0.008" />
+        </geometry>
+      </collision>
+    </link>
+
+  </xacro:macro>
+
+</robot>
