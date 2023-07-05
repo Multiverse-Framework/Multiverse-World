@@ -141,7 +141,7 @@
         </collision>
     </link>
     <joint name="window4_right_handle_rotation_joint" type="revolute">
-        <origin rpy="0 0 0" xyz="0.017383 0.834107 0.0"/>
+        <origin rpy="0 0 0" xyz="0.01 0.834107 0.0"/>
         <parent link="window4_right"/>
         <child link="window4_right_handle_rotation"/>
         <axis xyz="-1 0 0"/>
@@ -149,7 +149,7 @@
     </joint>
     <link name="window4_right_handle_rotation"/>
     <joint name="window4_right_handle_joint" type="fixed">
-        <origin rpy="0 0 0" xyz="0.037617 0 -0.057755"/>
+        <origin rpy="0 0 0" xyz="0.067235 0 -0.057755"/>
         <parent link="window4_right_handle_rotation"/>
         <child link="window4_right_handle"/>
     </joint>
@@ -160,19 +160,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="0 1.5707963267948966 0" xyz="0 0 0.057814"/>
+            <origin rpy="0 1.5707963267948966 0" xyz="-0.029618 0 0.057814"/>
             <geometry>
                 <cylinder length="0.075236" radius="0.008"/>
             </geometry>
         </collision>
         <collision>
-            <origin rpy="0 0 0" xyz="0.029618 0 0"/>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
                 <cylinder length="0.131626" radius="0.008"/>
             </geometry>
         </collision>
         <collision>
-            <origin rpy="0 1.5707963267948966 0" xyz="0.011142 0 -0.057813"/>
+            <origin rpy="0 1.5707963267948966 0" xyz="-0.018476 0 -0.057813"/>
             <geometry>
                 <cylinder length="0.052952" radius="0.008"/>
             </geometry>
@@ -199,7 +199,7 @@
         </collision>
     </link>
     <joint name="window4_left_handle_rotation_joint" type="revolute">
-        <origin rpy="0 0 0" xyz="0.017383 -0.834107 0.0"/>
+        <origin rpy="0 0 0" xyz="0.01 -0.834107 0.0"/>
         <parent link="window4_left"/>
         <child link="window4_left_handle_rotation"/>
         <axis xyz="1 0 0"/>
@@ -207,7 +207,7 @@
     </joint>
     <link name="window4_left_handle_rotation"/>
     <joint name="window4_left_handle_joint" type="fixed">
-        <origin rpy="0 0 0" xyz="0.037617 0 -0.057755"/>
+        <origin rpy="0 0 0" xyz="0.067235 0 -0.057755"/>
         <parent link="window4_left_handle_rotation"/>
         <child link="window4_left_handle"/>
     </joint>
@@ -218,19 +218,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="0 1.5707963267948966 0" xyz="0 0 0.057814"/>
+            <origin rpy="0 1.5707963267948966 0" xyz="-0.029618 0 0.057814"/>
             <geometry>
                 <cylinder length="0.075236" radius="0.008"/>
             </geometry>
         </collision>
         <collision>
-            <origin rpy="0 0 0" xyz="0.029618 0 0"/>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
                 <cylinder length="0.131626" radius="0.008"/>
             </geometry>
         </collision>
         <collision>
-            <origin rpy="0 1.5707963267948966 0" xyz="0.011142 0 -0.057813"/>
+            <origin rpy="0 1.5707963267948966 0" xyz="-0.018476 0 -0.057813"/>
             <geometry>
                 <cylinder length="0.052952" radius="0.008"/>
             </geometry>
@@ -716,7 +716,7 @@
         </collision>
     </link>
     <joint name="cabinet1_door_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.01559982 -0.46315559 -0.38983368"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.03598882 -0.46315559 -0.38983368"/>
         <parent link="cabinet1_door"/>
         <child link="cabinet1_door_handle"/>
     </joint>
@@ -727,19 +727,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -802,7 +802,7 @@
         </collision>
     </link>
     <joint name="cabinet1_drawer1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24792936 0.00091816 0.08401428"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26831836 0.00091816 0.08401428"/>
         <parent link="cabinet1_drawer1"/>
         <child link="cabinet1_drawer1_handle"/>
     </joint>
@@ -813,19 +813,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -888,7 +888,7 @@
         </collision>
     </link>
     <joint name="cabinet1_drawer2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24909416 -0.00145845 0.150606"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26948316 -0.00145845 0.150606"/>
         <parent link="cabinet1_drawer2"/>
         <child link="cabinet1_drawer2_handle"/>
     </joint>
@@ -899,19 +899,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -1055,7 +1055,7 @@
         </collision>
     </link>
     <joint name="cabinet2_door_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.00184994 -0.25886013 -0.10518866"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.02184994 -0.25886013 -0.10518866"/>
         <parent link="cabinet2_door"/>
         <child link="cabinet2_door_handle"/>
     </joint>
@@ -1066,19 +1066,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -1622,7 +1622,7 @@
         </collision>
     </link>
     <joint name="fridge_door1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.00799103 -0.46534321 -0.3616"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.02799103 -0.46534321 -0.3616"/>
         <parent link="fridge_door1"/>
         <child link="fridge_door1_handle"/>
     </joint>
@@ -1633,19 +1633,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -1779,7 +1779,7 @@
         </collision>
     </link>
     <joint name="fridge_door2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="0.00804657 -0.46538265 0.31786839"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="0.02804657 -0.46538265 0.31786839"/>
         <parent link="fridge_door2"/>
         <child link="fridge_door2_handle"/>
     </joint>
@@ -1790,19 +1790,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -2258,7 +2258,7 @@
         </collision>
     </link>
     <joint name="cabinet4_door2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.04103859 -0.01415195 -0.13357088"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.06103859 -0.01415195 -0.13357088"/>
         <parent link="cabinet4_door2"/>
         <child link="cabinet4_door2_handle"/>
     </joint>
@@ -2269,19 +2269,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -2429,7 +2429,7 @@
         </collision>
     </link>
     <joint name="cabinet5_drawer1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24980946 0.00142363 0.01676949"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26980946 0.00142363 0.01676949"/>
         <parent link="cabinet5_drawer1"/>
         <child link="cabinet5_drawer1_handle"/>
     </joint>
@@ -2440,19 +2440,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -2515,7 +2515,7 @@
         </collision>
     </link>
     <joint name="cabinet5_drawer2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.2507106 0.00106413 0.08500843"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.2707106 0.00106413 0.08500843"/>
         <parent link="cabinet5_drawer2"/>
         <child link="cabinet5_drawer2_handle"/>
     </joint>
@@ -2526,19 +2526,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -2601,7 +2601,7 @@
         </collision>
     </link>
     <joint name="cabinet5_drawer3_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24888186 0.00102875 0.15027037"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26888186 0.00102875 0.15027037"/>
         <parent link="cabinet5_drawer3"/>
         <child link="cabinet5_drawer3_handle"/>
     </joint>
@@ -2612,19 +2612,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -2718,7 +2718,7 @@
         </collision>
     </link>
     <joint name="cabinet6_drawer1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24662336 -0.00124599 0.0172039"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26662336 -0.00124599 0.0172039"/>
         <parent link="cabinet6_drawer1"/>
         <child link="cabinet6_drawer1_handle"/>
     </joint>
@@ -2729,19 +2729,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -2804,7 +2804,7 @@
         </collision>
     </link>
     <joint name="cabinet6_drawer2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24686237 -0.00397854 0.08541794"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26686237 -0.00397854 0.08541794"/>
         <parent link="cabinet6_drawer2"/>
         <child link="cabinet6_drawer2_handle"/>
     </joint>
@@ -2815,19 +2815,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -2890,7 +2890,7 @@
         </collision>
     </link>
     <joint name="cabinet6_drawer3_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24712164 -0.00402777 0.15116583"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26712164 -0.00402777 0.15116583"/>
         <parent link="cabinet6_drawer3"/>
         <child link="cabinet6_drawer3_handle"/>
     </joint>
@@ -2901,19 +2901,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -3236,7 +3236,7 @@
         </collision>
     </link>
     <joint name="dishwasher_front_handle_joint" type="fixed">
-        <origin rpy="0.0 0.0 0.0" xyz="-0.05493519 -0.67884796 0.0"/>
+        <origin rpy="0.0 0.0 0.0" xyz="-0.07493519 -0.67884796 0.0"/>
         <parent link="dishwasher_front"/>
         <child link="dishwasher_front_handle"/>
     </joint>
@@ -3247,19 +3247,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -3627,7 +3627,7 @@
         </collision>
     </link>
     <joint name="sink_drawer1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24900223 0.00331339 0.35071747"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26900223 0.00331339 0.35071747"/>
         <parent link="sink_drawer1"/>
         <child link="sink_drawer1_handle"/>
     </joint>
@@ -3638,19 +3638,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -3800,7 +3800,7 @@
         </collision>
     </link>
     <joint name="cabinet9_drawer1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24980946 0.00142363 0.01676949"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26980946 0.00142363 0.01676949"/>
         <parent link="cabinet9_drawer1"/>
         <child link="cabinet9_drawer1_handle"/>
     </joint>
@@ -3811,19 +3811,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -3886,7 +3886,7 @@
         </collision>
     </link>
     <joint name="cabinet9_drawer2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.2507106 0.00106413 0.08500843"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.2707106 0.00106413 0.08500843"/>
         <parent link="cabinet9_drawer2"/>
         <child link="cabinet9_drawer2_handle"/>
     </joint>
@@ -3897,19 +3897,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -3972,7 +3972,7 @@
         </collision>
     </link>
     <joint name="cabinet9_drawer3_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24888186 0.00102875 0.15027037"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26888186 0.00102875 0.15027037"/>
         <parent link="cabinet9_drawer3"/>
         <child link="cabinet9_drawer3_handle"/>
     </joint>
@@ -3983,19 +3983,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -4089,7 +4089,7 @@
         </collision>
     </link>
     <joint name="cabinet10_drawer1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24662336 -0.00124599 0.0172039"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26662336 -0.00124599 0.0172039"/>
         <parent link="cabinet10_drawer1"/>
         <child link="cabinet10_drawer1_handle"/>
     </joint>
@@ -4100,19 +4100,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -4175,7 +4175,7 @@
         </collision>
     </link>
     <joint name="cabinet10_drawer2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24686237 -0.00397854 0.08541794"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26686237 -0.00397854 0.08541794"/>
         <parent link="cabinet10_drawer2"/>
         <child link="cabinet10_drawer2_handle"/>
     </joint>
@@ -4186,19 +4186,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -4261,7 +4261,7 @@
         </collision>
     </link>
     <joint name="cabinet10_drawer3_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24712164 -0.00402777 0.15116583"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26712164 -0.00402777 0.15116583"/>
         <parent link="cabinet10_drawer3"/>
         <child link="cabinet10_drawer3_handle"/>
     </joint>
@@ -4272,19 +4272,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -4378,7 +4378,7 @@
         </collision>
     </link>
     <joint name="cabinet11_drawer1_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24662336 -0.00124599 0.0172039"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26662336 -0.00124599 0.0172039"/>
         <parent link="cabinet11_drawer1"/>
         <child link="cabinet11_drawer1_handle"/>
     </joint>
@@ -4389,19 +4389,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -4464,7 +4464,7 @@
         </collision>
     </link>
     <joint name="cabinet11_drawer2_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24686237 -0.00397854 0.08541794"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26686237 -0.00397854 0.08541794"/>
         <parent link="cabinet11_drawer2"/>
         <child link="cabinet11_drawer2_handle"/>
     </joint>
@@ -4475,19 +4475,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>
@@ -4550,7 +4550,7 @@
         </collision>
     </link>
     <joint name="cabinet11_drawer3_handle_joint" type="fixed">
-        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.24712164 -0.00402777 0.15116583"/>
+        <origin rpy="1.5707963267948966 0.0 0.0" xyz="-0.26712164 -0.00402777 0.15116583"/>
         <parent link="cabinet11_drawer3"/>
         <child link="cabinet11_drawer3_handle"/>
     </joint>
@@ -4561,19 +4561,19 @@
             </geometry>
         </visual>
         <collision>
-            <origin xyz="-0.003891 0.0 0.08"/>
+            <origin xyz="0.0164985 0.0 0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.003891 0.0 -0.08"/>
+            <origin xyz="0.0164985 0.0 -0.08"/>
             <geometry>
                 <box size="0.02 0.013 0.013"/>
             </geometry>
         </collision>
         <collision>
-            <origin xyz="-0.0203895 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.013 0.013 0.173032"/>
             </geometry>

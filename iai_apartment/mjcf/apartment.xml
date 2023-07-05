@@ -24,24 +24,24 @@
                             <body name="window4_right" pos="0 -0.916552 -0.425471">
                                 <joint name="window4_right_joint" pos="0 0 0" axis="0 0 -1" range="0 1.5708"/>
                                 <geom size="0.01 0.421713 1.03155" pos="0 0.421713 0" type="box"/>
-                                <body name="window4_right_handle_rotation" pos="0.017383 0.834107 0">
+                                <body name="window4_right_handle_rotation" pos="0.01 0.834107 0">
                                     <joint name="window4_right_handle_rotation_joint" pos="0 0 0" axis="-1 0 0" range="0 1.5708"/>
-                                    <body name="window4_right_handle" pos="0.037617 0 -0.057755">
-                                        <geom size="0.008 0.037618" pos="0 0 0.057814" quat="0.707107 0 0.707107 0" type="cylinder"/>
-                                        <geom size="0.008 0.065813" pos="0.029618 0 0" type="cylinder"/>
-                                        <geom size="0.008 0.026476" pos="0.011142 0 -0.057813" quat="0.707107 0 0.707107 0" type="cylinder"/>
+                                    <body name="window4_right_handle" pos="0.067235 0 -0.057755">
+                                        <geom size="0.008 0.037618" pos="-0.029618 0 0.057814" quat="0.707107 0 0.707107 0" type="cylinder"/>
+                                        <geom size="0.008 0.065813" type="cylinder"/>
+                                        <geom size="0.008 0.026476" pos="-0.018476 0 -0.057813" quat="0.707107 0 0.707107 0" type="cylinder"/>
                                     </body>
                                 </body>
                             </body>
                             <body name="window4_left" pos="0.00162 0.929112 -0.425471">
                                 <joint name="window4_left_joint" pos="0 0 0" axis="0 0 1" range="0 1.5708"/>
                                 <geom size="0.01 0.43203 1.03155" pos="0 -0.43203 0" type="box"/>
-                                <body name="window4_left_handle_rotation" pos="0.017383 -0.834107 0">
+                                <body name="window4_left_handle_rotation" pos="0.01 -0.834107 0">
                                     <joint name="window4_left_handle_rotation_joint" pos="0 0 0" axis="1 0 0" range="0 1.5708"/>
-                                    <body name="window4_left_handle" pos="0.037617 0 -0.057755">
-                                        <geom size="0.008 0.037618" pos="0 0 0.057814" quat="0.707107 0 0.707107 0" type="cylinder"/>
-                                        <geom size="0.008 0.065813" pos="0.029618 0 0" type="cylinder"/>
-                                        <geom size="0.008 0.026476" pos="0.011142 0 -0.057813" quat="0.707107 0 0.707107 0" type="cylinder"/>
+                                    <body name="window4_left_handle" pos="0.067235 0 -0.057755">
+                                        <geom size="0.008 0.037618" pos="-0.029618 0 0.057814" quat="0.707107 0 0.707107 0" type="cylinder"/>
+                                        <geom size="0.008 0.065813" type="cylinder"/>
+                                        <geom size="0.008 0.026476" pos="-0.018476 0 -0.057813" quat="0.707107 0 0.707107 0" type="cylinder"/>
                                     </body>
                                 </body>
                             </body>
@@ -130,10 +130,10 @@
                             <body name="cabinet1_door" pos="-0.28 0.28 0.677">
                                 <joint name="cabinet1_door_joint" pos="0 0 0" axis="0 0 -1" range="0 1.5708"/>
                                 <geom size="0.0095 0.298468 0.433405" pos="0 -0.285091 0" type="box"/>
-                                <body name="cabinet1_door_handle" pos="-0.0155998 -0.463156 -0.389834" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet1_door_handle" pos="-0.0359888 -0.463156 -0.389834" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet1_drawer1" pos="-0.0467902 -0.0112201 -0.486585">
@@ -145,10 +145,10 @@
                                 <geom size="0.24585 0.0079221 0.026549" pos="0.021336 0.26865 -0.0941" type="box"/>
                                 <geom size="0.24578 0.26182 0.008" pos="0.021399 0 -0.114232" type="box"/>
                                 <geom size="0.00932692 0.26182 0.084435" pos="0.26 0 -0.038" type="box"/>
-                                <body name="cabinet1_drawer1_handle" pos="-0.247929 0.00091816 0.0840143" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet1_drawer1_handle" pos="-0.268318 0.00091816 0.0840143" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet1_drawer2" pos="-0.046 -0.011 -0.816">
@@ -160,10 +160,10 @@
                                 <geom size="0.24585 0.0079221 0.041751" pos="0.021336 0.26865 -0.12854" type="box"/>
                                 <geom size="0.24578 0.26182 0.008" pos="0.021399 0 -0.16226" type="box"/>
                                 <geom size="0.00932692 0.26182 0.0758612" pos="0.26 0 -0.0797358" type="box"/>
-                                <body name="cabinet1_drawer2_handle" pos="-0.249094 -0.00145845 0.150606" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet1_drawer2_handle" pos="-0.269483 -0.00145845 0.150606" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="oven" pos="-0.273959 -0.0123597 -0.342672">
@@ -189,10 +189,10 @@
                             <body name="cabinet2_door" pos="-0.284321 0.18657 0.00105865">
                                 <joint name="cabinet2_door_joint" pos="0 0 0" axis="0 0 -1" range="0 1.5708"/>
                                 <geom size="0.0095 0.198479 1.06138" pos="-0.000653 -0.185074 0" type="box"/>
-                                <body name="cabinet2_door_handle" pos="-0.00184994 -0.25886 -0.105189" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet2_door_handle" pos="-0.0218499 -0.25886 -0.105189" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet2_shelf" pos="-0.00337784 0.00043732 0.790361">
@@ -288,10 +288,10 @@
                                 <joint name="fridge_door1_joint" pos="0 0 0" axis="0 0 -1" range="0 1.5708"/>
                                 <geom size="0.009277 0.298246 0.668339" pos="0.006948 -0.297325 0.139709" type="box"/>
                                 <geom size="0.0125 0.276867 0.494447" pos="0.03605 -0.295455 -0.001115" type="box"/>
-                                <body name="fridge_door1_handle" pos="-0.00799103 -0.465343 -0.3616" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="fridge_door1_handle" pos="-0.027991 -0.465343 -0.3616" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                                 <body name="fridge_door_tray1" pos="0.103791 -0.297261 -0.0156525">
                                     <geom size="0.001 0.210927 0.047787" pos="0.054273 0 0" type="box"/>
@@ -313,10 +313,10 @@
                                 <joint name="fridge_door2_joint" pos="0 0 0" axis="0 0 -1" range="0 1.5708"/>
                                 <geom size="0.009277 0.298246 0.39297" pos="0.006948 -0.297325 -0.028308" type="box"/>
                                 <geom size="0.0125 0.276867 0.311166" pos="0.03605 -0.295455 0.019366" type="box"/>
-                                <body name="fridge_door2_handle" pos="0.00804657 -0.465383 0.317868" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="fridge_door2_handle" pos="0.0280466 -0.465383 0.317868" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="fridge_base" pos="-0.0191809 -0.00292496 -0.0816938">
@@ -396,10 +396,10 @@
                             </body>
                             <body name="cabinet4_door2" pos="-0.150429 0.0093109 -0.199949">
                                 <geom size="0.0095 0.497446 0.197868" pos="-0.025359 0 0" type="box"/>
-                                <body name="cabinet4_door2_handle" pos="-0.0410386 -0.0141519 -0.133571" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet4_door2_handle" pos="-0.0610386 -0.0141519 -0.133571" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet4_shelf1" pos="0.00833792 -0.0101648 0.125006">
@@ -425,10 +425,10 @@
                                 <geom size="0.0095 0.298468 0.064993" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.269804 0.042633" pos="0.260372 0 -0.01336" type="box"/>
                                 <geom size="0.245507 0.269804 0.0075" pos="0.021031 0 -0.047595" type="box"/>
-                                <body name="cabinet5_drawer1_handle" pos="-0.249809 0.00142363 0.0167695" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet5_drawer1_handle" pos="-0.269809 0.00142363 0.0167695" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet5_drawer2" pos="-0.0530376 -0.00079152 0.133725">
@@ -440,10 +440,10 @@
                                 <geom size="0.0095 0.298468 0.131375" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.269804 0.084491" pos="0.260372 0 -0.037996" type="box"/>
                                 <geom size="0.245507 0.269804 0.008" pos="0.021031 0 -0.113735" type="box"/>
-                                <body name="cabinet5_drawer2_handle" pos="-0.250711 0.00106413 0.0850084" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet5_drawer2_handle" pos="-0.270711 0.00106413 0.0850084" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet5_drawer3" pos="-0.0534509 -0.00075551 -0.195667">
@@ -455,10 +455,10 @@
                                 <geom size="0.0095 0.298468 0.197867" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.269804 0.084105" pos="0.260372 0 -0.088821" type="box"/>
                                 <geom size="0.245507 0.269804 0.008" pos="0.021031 0 -0.164582" type="box"/>
-                                <body name="cabinet5_drawer3_handle" pos="-0.248882 0.00102875 0.15027" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet5_drawer3_handle" pos="-0.268882 0.00102875 0.15027" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                         </body>
@@ -475,10 +475,10 @@
                                 <geom size="0.0095 0.198867 0.064993" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.178822 0.042633" pos="0.260372 0 -0.01336" type="box"/>
                                 <geom size="0.245507 0.178822 0.0075" pos="0.021031 0 -0.047595" type="box"/>
-                                <body name="cabinet6_drawer1_handle" pos="-0.246623 -0.00124599 0.0172039" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet6_drawer1_handle" pos="-0.266623 -0.00124599 0.0172039" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet6_drawer2" pos="-0.0530569 -0.00074397 0.132969">
@@ -490,10 +490,10 @@
                                 <geom size="0.0095 0.198867 0.131375" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.178822 0.084491" pos="0.260372 0 -0.037996" type="box"/>
                                 <geom size="0.245507 0.178822 0.008" pos="0.021031 0 -0.113735" type="box"/>
-                                <body name="cabinet6_drawer2_handle" pos="-0.246862 -0.00397854 0.0854179" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet6_drawer2_handle" pos="-0.266862 -0.00397854 0.0854179" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet6_drawer3" pos="-0.0527976 -0.00069453 -0.196909">
@@ -505,10 +505,10 @@
                                 <geom size="0.0095 0.198867 0.197867" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.178822 0.084105" pos="0.260372 0 -0.088821" type="box"/>
                                 <geom size="0.245507 0.178822 0.008" pos="0.021031 0 -0.164582" type="box"/>
-                                <body name="cabinet6_drawer3_handle" pos="-0.247122 -0.00402777 0.151166" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet6_drawer3_handle" pos="-0.267122 -0.00402777 0.151166" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                         </body>
@@ -566,10 +566,10 @@
                                 <joint name="dishwasher_front_joint" pos="0 0 0" axis="0 0 -1" range="0 1.5708"/>
                                 <geom size="0.009444 0.397179 0.304987" pos="-0.04 -0.329015 0" type="box"/>
                                 <geom size="0.015 0.339603 0.287469" pos="-0.01 -0.334215 -0.015728" type="box"/>
-                                <body name="dishwasher_front_handle" pos="-0.0549352 -0.678848 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="dishwasher_front_handle" pos="-0.0749352 -0.678848 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="dishwasher_tray1" pos="0.194014 0.00735926 0.227136">
@@ -633,10 +633,10 @@
                                 <geom size="0.008426 0.154749 0.173305" pos="0.003041 -0.075302 -0.198155" type="box"/>
                                 <geom size="0.008426 0.154749 0.173305" pos="-0.199821 -0.075302 -0.198155" type="box"/>
                                 <geom size="0.109729 0.154749 0.00085" pos="-0.098209 -0.075302 -0.372315" type="box"/>
-                                <body name="sink_drawer1_handle" pos="-0.249002 0.00331339 0.350717" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="sink_drawer1_handle" pos="-0.269002 0.00331339 0.350717" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="sink_drawer2" pos="-0.0729948 0.00142344 0.164377">
@@ -663,10 +663,10 @@
                                 <geom size="0.0095 0.298468 0.064993" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.269804 0.042633" pos="0.260372 0 -0.01336" type="box"/>
                                 <geom size="0.245507 0.269804 0.0075" pos="0.021031 0 -0.047595" type="box"/>
-                                <body name="cabinet9_drawer1_handle" pos="-0.249809 0.00142363 0.0167695" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet9_drawer1_handle" pos="-0.269809 0.00142363 0.0167695" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet9_drawer2" pos="-0.050753 -0.00065196 0.134945">
@@ -678,10 +678,10 @@
                                 <geom size="0.0095 0.298468 0.131375" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.269804 0.084491" pos="0.260372 0 -0.037996" type="box"/>
                                 <geom size="0.245507 0.269804 0.008" pos="0.021031 0 -0.113735" type="box"/>
-                                <body name="cabinet9_drawer2_handle" pos="-0.250711 0.00106413 0.0850084" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet9_drawer2_handle" pos="-0.270711 0.00106413 0.0850084" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet9_drawer3" pos="-0.0504523 -0.00167063 -0.196113">
@@ -693,10 +693,10 @@
                                 <geom size="0.0095 0.298468 0.197867" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.269804 0.084105" pos="0.260372 0 -0.088821" type="box"/>
                                 <geom size="0.245507 0.269804 0.008" pos="0.021031 0 -0.164582" type="box"/>
-                                <body name="cabinet9_drawer3_handle" pos="-0.248882 0.00102875 0.15027" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet9_drawer3_handle" pos="-0.268882 0.00102875 0.15027" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                         </body>
@@ -713,10 +713,10 @@
                                 <geom size="0.0095 0.198867 0.064993" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.178822 0.042633" pos="0.260372 0 -0.01336" type="box"/>
                                 <geom size="0.245507 0.178822 0.0075" pos="0.021031 0 -0.047595" type="box"/>
-                                <body name="cabinet10_drawer1_handle" pos="-0.246623 -0.00124599 0.0172039" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet10_drawer1_handle" pos="-0.266623 -0.00124599 0.0172039" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet10_drawer2" pos="-0.0507138 -6.861e-05 0.128052">
@@ -728,10 +728,10 @@
                                 <geom size="0.0095 0.198867 0.131375" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.178822 0.084491" pos="0.260372 0 -0.037996" type="box"/>
                                 <geom size="0.245507 0.178822 0.008" pos="0.021031 0 -0.113735" type="box"/>
-                                <body name="cabinet10_drawer2_handle" pos="-0.246862 -0.00397854 0.0854179" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet10_drawer2_handle" pos="-0.266862 -0.00397854 0.0854179" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet10_drawer3" pos="-0.0504031 -0.00036921 -0.203967">
@@ -743,10 +743,10 @@
                                 <geom size="0.0095 0.198867 0.197867" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.178822 0.084105" pos="0.260372 0 -0.088821" type="box"/>
                                 <geom size="0.245507 0.178822 0.008" pos="0.021031 0 -0.164582" type="box"/>
-                                <body name="cabinet10_drawer3_handle" pos="-0.247122 -0.00402777 0.151166" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet10_drawer3_handle" pos="-0.267122 -0.00402777 0.151166" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                         </body>
@@ -763,10 +763,10 @@
                                 <geom size="0.0095 0.448341 0.064993" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.419788 0.042633" pos="0.260372 0 -0.01336" type="box"/>
                                 <geom size="0.245507 0.419788 0.0075" pos="0.021031 0 -0.047595" type="box"/>
-                                <body name="cabinet11_drawer1_handle" pos="-0.246623 -0.00124599 0.0172039" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet11_drawer1_handle" pos="-0.266623 -0.00124599 0.0172039" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet11_drawer2" pos="-0.0503088 0.0004598 0.119178">
@@ -778,10 +778,10 @@
                                 <geom size="0.0095 0.448341 0.131375" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.419788 0.084491" pos="0.260372 0 -0.037996" type="box"/>
                                 <geom size="0.245507 0.419788 0.008" pos="0.021031 0 -0.113735" type="box"/>
-                                <body name="cabinet11_drawer2_handle" pos="-0.246862 -0.00397854 0.0854179" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet11_drawer2_handle" pos="-0.266862 -0.00397854 0.0854179" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                             <body name="cabinet11_drawer3" pos="-0.0507751 0.00146352 -0.213308">
@@ -793,10 +793,10 @@
                                 <geom size="0.0095 0.448341 0.197867" pos="-0.233977 0 0" type="box"/>
                                 <geom size="0.008 0.419788 0.084105" pos="0.260372 0 -0.088821" type="box"/>
                                 <geom size="0.245507 0.419788 0.008" pos="0.021031 0 -0.164582" type="box"/>
-                                <body name="cabinet11_drawer3_handle" pos="-0.247122 -0.00402777 0.151166" quat="0.707107 0.707107 0 0">
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 0.08" type="box"/>
-                                    <geom size="0.01 0.0065 0.0065" pos="-0.003891 0 -0.08" type="box"/>
-                                    <geom size="0.0065 0.0065 0.086516" pos="-0.0203895 0 0" type="box"/>
+                                <body name="cabinet11_drawer3_handle" pos="-0.267122 -0.00402777 0.151166" quat="0.707107 0.707107 0 0">
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 0.08" type="box"/>
+                                    <geom size="0.01 0.0065 0.0065" pos="0.0164985 0 -0.08" type="box"/>
+                                    <geom size="0.0065 0.0065 0.086516" type="box"/>
                                 </body>
                             </body>
                         </body>
