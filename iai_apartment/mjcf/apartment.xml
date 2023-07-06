@@ -1,5 +1,5 @@
 <mujoco model="apartment">
-    <compiler angle="radian" meshdir="/media/giang/Storage/Multiverse/multiverse_ws/src/multiverse_world/iai_apartment/mjcf/apartment/stl/" autolimits="true" balanceinertia="true" discardvisual="true" boundmass="0.000001" boundinertia="0.000001"/>
+    <compiler angle="radian" meshdir="apartment/stl/" autolimits="true" balanceinertia="true" discardvisual="true" boundmass="0.000001" boundinertia="0.000001"/>
     <asset>
         <mesh name="armchair" file="armchair.stl"/>
         <mesh name="sofa" file="sofa.stl"/>
