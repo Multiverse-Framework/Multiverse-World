@@ -5,7 +5,7 @@
 <!-- =================================================================================== -->
 <robot name="apartment">
     <mujoco>
-        <compiler balanceinertia="true" discardvisual="true" boundmass="0.000001" boundinertia="0.000001" meshdir="/media/giang/Storage/Multiverse/multiverse_ws/src/multiverse_world/iai_apartment/mjcf/apartment/stl" strippath="false"/>
+        <compiler fusestatic="false" balanceinertia="true" discardvisual="true" boundmass="0.000001" boundinertia="0.000001" meshdir="/media/giangnguyen/Storage/Multiverse/multiverse_ws/src/multiverse_world/iai_apartment/mjcf/apartment/stl" strippath="false"/>
     </mujoco>
     <link name="apartment_root">
         <origin rpy="0 0 0" xyz="0 0 0"/>
