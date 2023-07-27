@@ -722,7 +722,6 @@
       <material name="white"/>
     </visual>
     <collision>
-      <origin xyz="0.0005 -0.009901 -0.361161 "/>
       <geometry>
         <box size="0.534942 0.561938 0.015"/>
       </geometry>
@@ -3299,7 +3298,7 @@
     </collision>
   </link>
   <joint name="dishwasher_tray1_joint" type="prismatic">
-    <origin rpy="0.0 0.0 0.0" xyz="0.19401426 0.00735926 0.22713593"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.22401426 0.00735926 0.22713593"/>
     <parent link="dishwasher"/>
     <child link="dishwasher_tray1"/>
     <axis xyz="-1 0 0"/>
@@ -3343,7 +3342,7 @@
     </collision>
   </link>
   <joint name="dishwasher_tray2_joint" type="prismatic">
-    <origin rpy="0.0 0.0 0.0" xyz="0.17742002 0.00735798 0.40232784"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.20742002 0.00735798 0.40232784"/>
     <parent link="dishwasher"/>
     <child link="dishwasher_tray2"/>
     <axis xyz="-1 0 0"/>
@@ -3387,7 +3386,7 @@
     </collision>
   </link>
   <joint name="dishwasher_tray3_joint" type="prismatic">
-    <origin rpy="0.0 0.0 0.0" xyz="0.19787212 0.01312525 0.61131351"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.22787212 0.01312525 0.61131351"/>
     <parent link="dishwasher"/>
     <child link="dishwasher_tray3"/>
     <axis xyz="-1 0 0"/>
