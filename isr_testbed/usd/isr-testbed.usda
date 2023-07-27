@@ -1,0 +1,2016 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def Xform "walls"
+    {
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.49183, 0.433522, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Xform "walls__walls__Door_4" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Door_4_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (0.4529997912576481, -0.00043487989980367113, 0, 0), (0.000023999994470401276, 0.024999988480002656, 0, 0), (0, 0, 0.6, 0), (-0.44425, -3.76409, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_19" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_19_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (0.95, 0, 0, 0), (0, 0.025, 0, 0), (0, 0, 0.5, 0), (-2.66199, 1.59399, 0.5, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_21" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_21_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (1.075, 0, 0, 0), (0, 0.025, 0, 0), (0, 0, 0.6, 0), (-0.022, -4.882, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_22" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_22_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.000002439519365227127, 0.574999999994825, 0, 0), (-0.024999999999775004, -1.060660593577012e-7, 0, 0), (0, 0, 0.6, 0), (1.028, -4.332, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_23" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_23_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (1.075, 0, 0, 0), (0, 0.025, 0, 0), (0, 0, 0.6, 0), (2.078, -3.782, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_24" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_24_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.000002439519365227127, 0.574999999994825, 0, 0), (-0.024999999999775004, -1.060660593577012e-7, 0, 0), (0, 0, 0.6, 0), (3.128, -3.232, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_25" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_25_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (0.325, 0, 0, 0), (0, 0.025, 0, 0), (0, 0, 0.6, 0), (3.428, -2.682, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_26" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_26_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.0000040305102555926455, 0.94999999999145, 0, 0), (-0.024999999999775004, -1.060660593577012e-7, 0, 0), (0, 0, 0.6, 0), (3.728, -1.757, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_27" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_27_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.44999999999841567, 0.0000011941109999978979, 0, 0), (-6.633949999988323e-8, -0.02499999999991198, 0, 0), (0, 0, 0.6, 0), (3.303, -0.832, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_36" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_36_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (0.95, 0, 0, 0), (0, 0.025, 0, 0), (0, 0, 0.6, 0), (1.117, 1.66399, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_48" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_48_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.006022640224433895, 4.449995924470575, 0, 0), (-0.024999977103767276, -0.00003383505744063986, 0, 0), (0, 0, 0.6, 0), (-3.58099, 0.669, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_49" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_49_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (2.325, 0, 0, 0), (0, 0.025, 0, 0), (0, 0, 0.6, 0), (-1.28699, 5.09399, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_50" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_50_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.000005091170849169657, -1.1999999999892002, 0, 0), (0.024999999999775004, -1.060660593577012e-7, 0, 0), (0, 0, 0.6, 0), (1.01299, 3.91899, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_51" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_51_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.44999999999841567, 0.0000011941109999978979, 0, 0), (-6.633949999988323e-8, -0.02499999999991198, 0, 0), (0, 0, 0.6, 0), (0.588, 2.74399, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_53" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_53_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.000007212492036323681, 1.6999999999847002, 0, 0), (-0.024999999999775004, -1.060660593577012e-7, 0, 0), (0, 0, 0.6, 0), (-0.765, 3.24799, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_58" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_58_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.000007212492036323681, 1.6999999999847002, 0, 0), (-0.024999999999775004, -1.060660593577012e-7, 0, 0), (0, 0, 0.6, 0), (2.042, 3.33899, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_61" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_61_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (1.325, 0, 0, 0), (0, 0.025, 0, 0), (0, 0, 0.6, 0), (-2.27499, -3.756, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "walls__walls__Wall_63" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "walls__walls__Wall_63_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.000007212492036323681, 1.6999999999847002, 0, 0), (-0.024999999999775004, -1.060660593577012e-7, 0, 0), (0, 0, 0.6, 0), (2.878, 0.843, 0.6, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+    }
+
+    def Xform "wall"
+    {
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-1.19, 1.86, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Xform "wall__wall__Wall_0" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "wall__wall__Wall_0_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (-0.000035001799588041393, -8.24999999992575, 0, 0), (0.07499999999932501, -3.181981780731036e-7, 0, 0), (0, 0, 1.25, 0), (-9.98, 1.805, 1.25, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+
+        def Xform "wall__wall__Wall_2" (
+            prepend apiSchemas = ["PhysicsMassAPI"]
+        )
+        {
+            point3f physics:centerOfMass = (0, 0, 0)
+            float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+            float physics:mass = 0
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+
+            def Cube "wall__wall__Wall_2_Collision" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                bool physics:collisionEnabled = 1
+                color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+                float[] primvars:displayOpacity = [1]
+                matrix4d xformOp:transform = ( (8.789198944856603, -0.004306707741489867, 0, 0), (0.00003674999779408138, 0.07499999099625053, 0, 0), (0, 0, 1.25, 0), (-1.26581, 9.97568, 1.25, 1) )
+                uniform token[] xformOpOrder = ["xformOp:transform"]
+            }
+        }
+    }
+
+    def Xform "cone1__ConstructionCone__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-5.94, 2.97, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "cone1__ConstructionCone__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/construction_cone.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-2.220446049250313e-16, 1.0000000000000002, 0, 0), (-1.0000000000000002, -2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-4.94026558376145e-9, -1.0139753384082658e-9, 0.26631417992989204, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "cone2__ConstructionCone__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-4.54, 2.97, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "cone2__ConstructionCone__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/construction_cone.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-2.220446049250313e-16, 1.0000000000000002, 0, 0), (-1.0000000000000002, -2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-4.94026558376145e-9, -1.0139753384082658e-9, 0.26631417992989204, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "cone3__ConstructionCone__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (3.03, 6.84, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "cone3__ConstructionCone__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/construction_cone.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-2.220446049250313e-16, 1.0000000000000002, 0, 0), (-1.0000000000000002, -2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-4.94026558376145e-9, -1.0139753384082658e-9, 0.26631417992989204, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "cone4__ConstructionCone__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (3.03, 8.33, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "cone4__ConstructionCone__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/construction_cone.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-2.220446049250313e-16, 1.0000000000000002, 0, 0), (-1.0000000000000002, -2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-4.94026558376145e-9, -1.0139753384082658e-9, 0.26631417992989204, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "table_outside__cafe_table__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-5.25, 3.77, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "table_outside__cafe_table__surface" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.4565, 0, 0, 0), (0, 0.4565, 0, 0), (0, 0, 0.0175, 0), (0, 0, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "table_outside__cafe_table__column" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.021, 0, 0, 0), (0, 0.021, 0, 0), (0, 0, 0.075, 0), (0, 0, 0.37, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "table_outside__cafe_table__base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.28, 0, 0, 0), (0, 0.28, 0, 0), (0, 0, 0.02, 0), (0, 0, 0.02, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "hydrant1__fire_hydrant__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (1.01, 9.45, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "hydrant1__fire_hydrant__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/fire_hydrant.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0, 0.9997976789955284, 0.020114697988146375, 0), (-1, 0, 0, 0), (0, -0.020114697988146375, 0.9997976789955284, 0), (-6.974068616004271e-9, -0.007145307172596198, 0.44153734366259834, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "hydrant2__fire_hydrant__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-4, 9.45, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "hydrant2__fire_hydrant__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/fire_hydrant.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0, 0.9997976789955284, 0.020114697988146375, 0), (-1, 0, 0, 0), (0, -0.020114697988146375, 0.9997976789955284, 0), (-6.974068616004271e-9, -0.007145307172596198, 0.44153734366259834, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "tree1__pine_tree__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-6, 9.45, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "tree1__pine_tree__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/pine_tree.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.871164974269339, 0.4909903265923289, -0.00029461680208010387, 0), (-0.49098787592698157, 0.8711622421231929, 0.0026932492648044683, 0), (0.0015790183699881633, -0.0022016111486085907, 0.9999963297979336, 0), (0.00041166249133690343, 0.001388879362570965, 2.599270854021365, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "tree2__pine_tree__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-9.11, 6.25, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "tree2__pine_tree__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/pine_tree.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.871164974269339, 0.4909903265923289, -0.00029461680208010387, 0), (-0.49098787592698157, 0.8711622421231929, 0.0026932492648044683, 0), (0.0015790183699881633, -0.0022016111486085907, 0.9999963297979336, 0), (0.00041166249133690343, 0.001388879362570965, 2.599270854021365, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "human__person_standing__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, -0.1, 0.95)
+        float3 physics:diagonalInertia = (25.73, 24.88, 2.48)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.04, 2.41, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "human__person_standing__bottom" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.175, 0, 0), (0, 0, 0.01, 0), (0, -0.1, 0.01, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Mesh "human__person_standing__person" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/standing.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-0.023802966061076347, 0.9996639214803557, 0.010269512997859068, 0), (-0.9997140022273402, -0.023777918510688334, -0.0025542791338222476, 0), (-0.0023092330522646474, -0.01032737535954826, 0.9999440048127162, 0), (0.0003044132057083967, -0.08666337229473359, 1.0808105849938412, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "wardrobe__wardrobe__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 1.1, 0)
+        float3 physics:diagonalInertia = (8.33333, 7.53066, 2.53067)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.65, 2.44, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "wardrobe__wardrobe__base_link_visual" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.0003981012130230832, 0.4999998415153991, 0, 0), (-0.35999988589108733, 0.0002866328733766199, 0, 0), (0, 0, 1, 0), (0, 0.2, 1, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "pizza_box__pizza_box__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.0175)
+        float3 physics:diagonalInertia = (0.0308058, 0.0210714, 0.00987729)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.5403019779100945, 0.8414711953872456, 0, 0), (-0.8414711953872456, 0.5403019779100945, 0, 0), (0, 0, 1, 0), (2, -0.15, 0.8, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "pizza_box__pizza_box__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.205, 0, 0, 0), (0, 0.3, 0, 0), (0, 0, 0.0175, 0), (0, 0, 0.0175, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "basmati_rice__basmati_rice__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000981491, 0.000666694, 0.000352502)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.85, 0.5, 0.8, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "basmati_rice__basmati_rice__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.0205, 0, 0, 0), (0, 0.061, 0, 0), (0, 0, 0.085, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "tea_box__tea_box__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000204478, 0.000195298, 0.0000627615)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.85, 0.9, 0.85, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "tea_box__tea_box__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.0315, 0, 0, 0), (0, 0.079, 0, 0), (0, 0, 0.0365, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "beer__beer__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.00058, 0.00058, 0.00025)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.5403019779100945, 0.8414711953872456, 0, 0), (-0.8414711953872456, 0.5403019779100945, 0, 0), (0, 0, 1, 0), (-2.73, -2.64, 0.6, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cylinder "beer__beer__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.035, -0.035, -0.06), (0.035, 0.035, 0.06)]
+            double height = 0.12
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.035
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "cup1__plastic_cup__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0.01, 0)
+        float3 physics:diagonalInertia = (0.000102896, 0.000102896, 0.0000328764)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.5403019779100945, 0.8414711953872456, 0, 0), (-0.8414711953872456, 0.5403019779100945, 0, 0), (0, 0, 1, 0), (-2.85, -2.4, 0.45, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "cup1__plastic_cup__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/plastic_cup.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-0.014057453178756063, -0.000001636797105630805, 0.9999011891219292, 0), (-0.9999011891232689, 2.3011472505274355e-8, -0.014057453178737134, 0), (-5.551115123125783e-17, -0.9999999999986602, -0.0000016369588551334857, 0), (-5.860989617004778e-9, 0.012367493631879807, 0.07285229437262175, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "cup2__plastic_cup__link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0.01, 0)
+        float3 physics:diagonalInertia = (0.000102896, 0.000102896, 0.0000328764)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.5403019779100945, 0.8414711953872456, 0, 0), (-0.8414711953872456, 0.5403019779100945, 0, 0), (0, 0, 1, 0), (1.83, -0.48, 0.8, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "cup2__plastic_cup__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/plastic_cup.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-0.014057453178756063, -0.000001636797105630805, 0.9999011891219292, 0), (-0.9999011891232689, 2.3011472505274355e-8, -0.014057453178737134, 0), (-5.551115123125783e-17, -0.9999999999986602, -0.0000016369588551334857, 0), (-5.860989617004778e-9, 0.012367493631879807, 0.07285229437262175, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "shelf__shelf__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.001, 0.001, 0.001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.010797362829017443, 0.9999417067789199, 0, 0), (-0.9999417067789199, 0.010797362829017443, 0, 0), (0, 0, 1, 0), (-2.85, 1, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "shelf__shelf__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/shelf.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-5.515764001096102e-8, 0.9999999205836707, -0.0003985381399686516, 0), (0.0001383998905874484, 0.0003985381437856539, 0.9999999110064052, 0), (0.9999999904227335, 1.1102230246251565e-16, -0.00013839990157871185, 0), (-0.0006372151788881114, -0.0006650872642877778, 0.486408744233907, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "lamp_ikea_arstid__lamp_ikea_arstid__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.52)
+        float3 physics:diagonalInertia = (1.08933, 1.08933, 0.162)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.010797362829017443, 0.9999417067789199, 0, 0), (-0.9999417067789199, 0.010797362829017443, 0, 0), (0, 0, 1, 0), (-2.85, -2, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cylinder "lamp_ikea_arstid__lamp_ikea_arstid__column_lamp" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.03, -0.03, -0.4), (0.03, 0.03, 0.4)]
+            double height = 0.8
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.03
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0.42, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cylinder "lamp_ikea_arstid__lamp_ikea_arstid__base_lamp" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.18, -0.18, -0.01), (0.18, 0.18, 0.01)]
+            double height = 0.02
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.18
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cylinder "lamp_ikea_arstid__lamp_ikea_arstid__top_lamp" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.13, -0.13, -0.25), (0.13, 0.13, 0.25)]
+            double height = 0.5
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.13
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0.9, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "plant_floor_small__plant_floor_small__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.38)
+        float3 physics:diagonalInertia = (0.614333, 0.614333, 0.162)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.84, -3.05, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "plant_floor_small__plant_floor_small__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/plant_floor_small.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (3.511794027018936e-7, 3.1702466313799405e-7, 0.30084742223997907, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "apple_juice_box__apple_juice__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000598683, 0.000598683, 0.00007935)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.84, 1.64, 1, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "apple_juice_box__apple_juice__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.0345, 0, 0, 0), (0, 0.0345, 0, 0), (0, 0, 0.1295, 0), (0, 0, 0.0055, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "table_bedside__table_bedside__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.4, 0.4, 0.3)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.82, -2.48, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "table_bedside__table_bedside__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.3, 0, 0, 0), (0, 0.3, 0, 0), (0, 0, 0.2, 0), (0, 0, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "bed__bed__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0.2, 0, 0)
+        float3 physics:diagonalInertia = (18.5, 13, 7.3)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-1.94933, 4.30992, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "bed__bed__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.8, 0, 0, 0), (0, 1.1, 0, 0), (0, 0, 0.3, 0), (0.2, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "nightstand1__bedroom_nightstand__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.166667, 0.166667, 0.166667)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-0.69, 5, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "nightstand1__bedroom_nightstand__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/bedroom_nightstand.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.9999775861149613, -0.006669559359558178, -0.0005867245046723575, 0), (0.006664525691029423, 0.9999441762780213, -0.008199294175907274, 0), (0.0006413774307394237, 0.008195200157335273, 0.9999662130939088, 0), (0.07232728422516192, -0.026548541513527472, 0.33584949646780726, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "nightstand2__bedroom_nightstand__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.166667, 0.166667, 0.166667)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.89, 5.03713, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "nightstand2__bedroom_nightstand__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/bedroom_nightstand.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.9999775861149613, -0.006669559359558178, -0.0005867245046723575, 0), (0.006664525691029423, 0.9999441762780213, -0.008199294175907274, 0), (0.0006413774307394237, 0.008195200157335273, 0.9999662130939088, 0), (0.07232728422516192, -0.026548541513527472, 0.33584949646780726, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "dinning_room_table__dinning_room_table__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (-0.04, 0.015, 0.75)
+        float3 physics:diagonalInertia = (2.08333, 1.41667, 0.683333)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (2.05802, -2.30976, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "dinning_room_table__dinning_room_table__base_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.65, 0, 0, 0), (0, 0.45, 0, 0), (0, 0, 0.05, 0), (-0.04, 0.015, 0.75, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cylinder "dinning_room_table__dinning_room_table__leg1_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.05, -0.05, -0.35), (0.05, 0.05, 0.35)]
+            double height = 0.7
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.05
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-0.65, -0.4, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cylinder "dinning_room_table__dinning_room_table__leg2_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.05, -0.05, -0.35), (0.05, 0.05, 0.35)]
+            double height = 0.7
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.05
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.55, -0.4, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cylinder "dinning_room_table__dinning_room_table__leg3_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.05, -0.05, -0.35), (0.05, 0.05, 0.35)]
+            double height = 0.7
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.05
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.55, 0.4, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cylinder "dinning_room_table__dinning_room_table__leg4_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            float3[] extent = [(-0.05, -0.05, -0.35), (0.05, 0.05, 0.35)]
+            double height = 0.7
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            double radius = 0.05
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-0.65, 0.4, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "table_living_room__table_living_room__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (-0.03, 0.025, 0.75)
+        float3 physics:diagonalInertia = (1.39687, 0.940166, 0.462041)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.004367081659452432, -0.9999904642534247, -0, 0), (0.9999904642534247, 0.004367081659452432, 0, 0), (0, -0, 1, 0), (2, -0.156695, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "table_living_room__table_living_room__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.525, 0, 0, 0), (0, 0.75, 0, 0), (0, 0, 0.04, 0), (-0.03, 0.025, 0.75, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "table_living_room__table_living_room__base_inferior_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.4, 0, 0, 0), (0, 0.65, 0, 0), (0, 0, 0.025, 0), (-0.03, 0.025, 0.35, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "table_living_room__table_living_room__leg1_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.06, 0, 0, 0), (0, 0.06, 0, 0), (0, 0, 0.375, 0), (-0.4, 0.63, 0.39, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "table_living_room__table_living_room__leg2_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.06, 0, 0, 0), (0, 0.06, 0, 0), (0, 0, 0.375, 0), (0.35, 0.63, 0.39, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "table_living_room__table_living_room__leg3_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.06, 0, 0, 0), (0, 0.06, 0, 0), (0, 0, 0.375, 0), (0.35, -0.59, 0.39, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "table_living_room__table_living_room__leg4_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.06, 0, 0, 0), (0, 0.06, 0, 0), (0, 0, 0.375, 0), (-0.4, -0.59, 0.39, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "cabinet_diamondback__cabinet_diamondback__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (1, 1, 1)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.004367081659452432, -0.9999904642534247, -0, 0), (0.9999904642534247, 0.004367081659452432, 0, 0), (0, -0, 1, 0), (0.91, 1.69, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "cabinet_diamondback__cabinet_diamondback__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/cabinet_diamondback.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (-0.022659497366161574, 0.999733669650599, -0.004374579529536999, 0), (-0.9996956209680512, -0.022615493394844588, 0.009859253308968054, 0), (0.009757694216133978, 0.004596653723641496, 0.9999418273970389, 0), (-0.009980293351962332, -0.003651887541721674, 0.5322627483915044, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "cabinet_ikea_galant__cabinet_ikea_galant__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (5.72066, 3.39, 3.30267)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (1.8, 1.68, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "cabinet_ikea_galant__cabinet_ikea_galant__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.65, 0, 0, 0), (0, 0.27, 0, 0), (0, 0, 0.66, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "tray_blue_white__tray_blue_white__base_link" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.001, 0.001, 0.001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.030792261319003256, -0.9995258058914047, -0, 0), (0.9995258058914047, 0.030792261319003256, 0, 0), (0, -0, 1, 0), (2.12, 1.67, 1, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "tray_blue_white__tray_blue_white__base_link_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.115, 0, 0, 0), (0, 0.15, 0, 0), (0, 0, 0.008, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "chair_dinning_room_1__simple_chair__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0.12, -0.05, 0.35)
+        float3 physics:diagonalInertia = (0.1, 0.1, 0.1)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (1.91, -3.05, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "chair_dinning_room_1__simple_chair__collision_base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.025, 0), (0.15, -0.05, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_1__simple_chair__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.0375, 0, 0), (0, 0, 0.19, 0), (0.15, -0.22, 0.6, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_1__simple_chair__collision_leg1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_1__simple_chair__collision_leg2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_1__simple_chair__collision_leg3" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_1__simple_chair__collision_leg4" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "chair_dinning_room_2__simple_chair__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0.12, -0.05, 0.35)
+        float3 physics:diagonalInertia = (0.1, 0.1, 0.1)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.022833824023075322, 0.9997392742512836, 0, 0), (-0.9997392742512836, 0.022833824023075322, 0, 0), (0, 0, 1, 0), (2.96, -2.52, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "chair_dinning_room_2__simple_chair__collision_base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.025, 0), (0.15, -0.05, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_2__simple_chair__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.0375, 0, 0), (0, 0, 0.19, 0), (0.15, -0.22, 0.6, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_2__simple_chair__collision_leg1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_2__simple_chair__collision_leg2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_2__simple_chair__collision_leg3" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_dinning_room_2__simple_chair__collision_leg4" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "chair_kitchen_1__simple_chair__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0.12, -0.05, 0.35)
+        float3 physics:diagonalInertia = (0.1, 0.1, 0.1)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (1.57, -0.98, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "chair_kitchen_1__simple_chair__collision_base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.025, 0), (0.15, -0.05, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_1__simple_chair__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.0375, 0, 0), (0, 0, 0.19, 0), (0.15, -0.22, 0.6, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_1__simple_chair__collision_leg1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_1__simple_chair__collision_leg2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_1__simple_chair__collision_leg3" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_1__simple_chair__collision_leg4" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "chair_kitchen_2__simple_chair__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0.12, -0.05, 0.35)
+        float3 physics:diagonalInertia = (0.1, 0.1, 0.1)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (2.26, -0.97, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "chair_kitchen_2__simple_chair__collision_base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.025, 0), (0.15, -0.05, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_2__simple_chair__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.0375, 0, 0), (0, 0, 0.19, 0), (0.15, -0.22, 0.6, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_2__simple_chair__collision_leg1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_2__simple_chair__collision_leg2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_2__simple_chair__collision_leg3" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_2__simple_chair__collision_leg4" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "chair_kitchen_3__simple_chair__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0.12, -0.05, 0.35)
+        float3 physics:diagonalInertia = (0.1, 0.1, 0.1)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (-0.01920271214753866, 0.9998156109234239, 0, 0), (-0.9998156109234239, -0.01920271214753866, 0, 0), (0, 0, 1, 0), (2.88, -0.26, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "chair_kitchen_3__simple_chair__collision_base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.025, 0), (0.15, -0.05, 0.45, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_3__simple_chair__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.25, 0, 0, 0), (0, 0.0375, 0, 0), (0, 0, 0.19, 0), (0.15, -0.22, 0.6, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_3__simple_chair__collision_leg1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_3__simple_chair__collision_leg2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (0.33, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_3__simple_chair__collision_leg3" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, -0.25, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair_kitchen_3__simple_chair__collision_leg4" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.04, 0, 0, 0), (0, 0.04, 0, 0), (0, 0, 0.25, 0), (-0.05, 0.15, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "sofa__sofa__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0.05, 0.02, 0.35)
+        float3 physics:diagonalInertia = (7.023, 6.519, 2.379)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-0.76, -0.9, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "sofa__sofa__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.465, 0, 0, 0), (0, 0.915, 0, 0), (0, 0, 0.185, 0), (0.05, 0, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "sofa__sofa__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.15, 0, 0, 0), (0, 0.915, 0, 0), (0, 0, 0.25, 0), (0.35, 0, 0.5, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "sofa__sofa__collision_arm_left" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.4, 0, 0, 0), (0, 0.125, 0, 0), (0, 0, 0.25, 0), (0, -0.8, 0.5, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "sofa__sofa__collision_arm_right" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.4, 0, 0, 0), (0, 0.125, 0, 0), (0, 0, 0.25, 0), (0, 0.8, 0.5, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "chair1__tv_chair__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.5)
+        float3 physics:diagonalInertia = (1.08333, 1.08333, 0.816666)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.0007962024260461664, -0.9999996830307982, -0, 0), (0.9999996830307982, 0.0007962024260461664, 0, 0), (0, -0, 1, 0), (-0.73, -2.05, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "chair1__tv_chair__collision_seat" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.35, 0, 0, 0), (0, 0.24026387533701363, -0.06908885733633156, 0), (0, 0.013817771467266314, 0.04805277506740273, 0), (0, -0.2, 0.35, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair1__tv_chair__collision_base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.35, 0, 0, 0), (0, 0.3, 0, 0), (0, 0, 0.025, 0), (0, -0.1, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair1__tv_chair__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.3, 0, 0, 0), (0, 0.0921061311823274, -0.03894175905918861, 0), (0, 0.16550247600155157, 0.3914510575248914, 0), (0, 0.18, 0.65, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair1__tv_chair__collision_leg1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.05, 0, 0), (0, 0, 0.225, 0), (0.33, -0.33, 0.3, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair1__tv_chair__collision_leg2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.05, 0, 0), (0, 0, 0.225, 0), (-0.33, -0.33, 0.3, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair1__tv_chair__collision_arm1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.05, 0), (-0.33, -0.1, 0.5, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair1__tv_chair__collision_arm2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.05, 0), (0.33, -0.1, 0.5, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "chair2__tv_chair__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0.5)
+        float3 physics:diagonalInertia = (1.08333, 1.08333, 0.816666)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.0007962024260461664, -0.9999996830307982, -0, 0), (0.9999996830307982, 0.0007962024260461664, 0, 0), (0, -0, 1, 0), (-0.73, 0.57, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "chair2__tv_chair__collision_seat" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.35, 0, 0, 0), (0, 0.24026387533701363, -0.06908885733633156, 0), (0, 0.013817771467266314, 0.04805277506740273, 0), (0, -0.2, 0.35, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair2__tv_chair__collision_base" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.35, 0, 0, 0), (0, 0.3, 0, 0), (0, 0, 0.025, 0), (0, -0.1, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair2__tv_chair__collision_back" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.3, 0, 0, 0), (0, 0.0921061311823274, -0.03894175905918861, 0), (0, 0.16550247600155157, 0.3914510575248914, 0), (0, 0.18, 0.65, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair2__tv_chair__collision_leg1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.05, 0, 0), (0, 0, 0.225, 0), (0.33, -0.33, 0.3, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair2__tv_chair__collision_leg2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.05, 0, 0), (0, 0, 0.225, 0), (-0.33, -0.33, 0.3, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair2__tv_chair__collision_arm1" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.05, 0), (-0.33, -0.1, 0.5, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+
+        def Cube "chair2__tv_chair__collision_arm2" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.05, 0, 0, 0), (0, 0.225, 0, 0), (0, 0, 0.05, 0), (0.33, -0.1, 0.5, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "tv__tv__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, -0.07, 0.8)
+        float3 physics:diagonalInertia = (1.73333, 1.275, 0.608333)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (0.9996620211365287, -0.025996990157139622, -0, 0), (0.025996990157139622, 0.9996620211365287, 0, 0), (0, -0, 1, 0), (-2.85, -0.94, 0.035264, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "tv__tv__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.15, 0, 0, 0), (0, 0.6, 0, 0), (0, 0, 0.4, 0), (0.05, -0.08, 0.8, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "tv_table__tv_table__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (-0.05, 0.05, 0.2)
+        float3 physics:diagonalInertia = (7.43125, 7.20625, 1.025)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-2.81, -0.98, 0, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Cube "tv_table__tv_table__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (0.2, 0, 0, 0), (0, 0.825, 0, 0), (0, 0, 0.25, 0), (-0.05, 0.05, 0.2, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+
+    def Xform "aruco_marker_0__aruco_marker_0__link_0" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+    )
+    {
+        point3f physics:centerOfMass = (0, 0, 0)
+        float3 physics:diagonalInertia = (0.000001, 0.000001, 0.000001)
+        float physics:mass = 0
+        matrix4d xformOp:transform = ( (2.220446049250313e-16, -0.9999999999999998, -0, 0), (0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, -0, 1, 0), (1.5, 1.96, 0.8, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        def Mesh "aruco_marker_0__aruco_marker_0__collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysicsMeshCollisionAPI"]
+            prepend references = @./isr-testbed/usd/aruco_marker_0.usda@
+        )
+        {
+            uniform token physics:approximation = "convexHull"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.5, 0.5, 0.5)]
+            float[] primvars:displayOpacity = [1]
+            matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 0.3087795401783292, 0.9511336370706588, 0), (0, -0.9511336370706588, 0.3087795401783292, 0), (4.1624863571202215e-11, -1.4044190105409458e-8, 1.1091517855483145e-9, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform"]
+        }
+    }
+}
+
