@@ -39,7 +39,7 @@
                         <geom size="0.094776 2.48345 1.52585" pos="9.98022 0.713447 1.73439" type="box"/>
                     </body>
                     <body name="windows" pos="0 0 -0.2"/>
-                    <body name="window4_frame" pos="0.671098 3.37273 1.72145" quat="0.707107 0 0 -0.707107">
+                    <body name="window4_frame" pos="0.671098 3.37273 1.52145" quat="0.707107 0 0 -0.707107">
                         <geom size="0.01 1.0677 0.092776" pos="0 0 1.42883" type="box"/>
                         <geom size="0.01 1.0677 0.18914" pos="0 0 0.795222" type="box"/>
                         <geom size="0.01 1.0677 0.026796" pos="0 0 -1.49481" type="box"/>
@@ -50,8 +50,8 @@
                             <joint name="window4_right_joint" pos="0 0 0" axis="0 0 -1" range="0 1.5708"/>
                             <geom size="0.01 0.421713 1.03155" pos="0 0.421713 0" type="box"/>
                             <body name="window4_right_handle_rotation" pos="0.01 0.834107 0">
-                                <joint name="window4_right_handle_rotation_joint" pos="0 0 0" axis="-1 0 0" range="0 1.5708"/>
-                                <body name="window4_right_handle" pos="0.067235 0 -0.057755">
+                                <joint name="window4_right_handle_rotation_joint" pos="0 0 0" axis="-1 0 0" range="0 1.5708" damping="1"/>
+                                <body name="window4_right_handle" pos="0.067235 0 -0.057755" gravcomp="1">
                                     <geom size="0.008 0.037618" pos="-0.029618 0 0.057814" quat="0.707107 0 0.707107 0" type="cylinder"/>
                                     <geom size="0.008 0.065813" type="cylinder"/>
                                     <geom size="0.008 0.026476" pos="-0.018476 0 -0.057813" quat="0.707107 0 0.707107 0" type="cylinder"/>
@@ -62,8 +62,8 @@
                             <joint name="window4_left_joint" pos="0 0 0" axis="0 0 1" range="0 1.5708"/>
                             <geom size="0.01 0.43203 1.03155" pos="0 -0.43203 0" type="box"/>
                             <body name="window4_left_handle_rotation" pos="0.01 -0.834107 0">
-                                <joint name="window4_left_handle_rotation_joint" pos="0 0 0" axis="1 0 0" range="0 1.5708"/>
-                                <body name="window4_left_handle" pos="0.067235 0 -0.057755">
+                                <joint name="window4_left_handle_rotation_joint" pos="0 0 0" axis="1 0 0" range="0 1.5708" damping="1"/>
+                                <body name="window4_left_handle" pos="0.067235 0 -0.057755" gravcomp="1">
                                     <geom size="0.008 0.037618" pos="-0.029618 0 0.057814" quat="0.707107 0 0.707107 0" type="cylinder"/>
                                     <geom size="0.008 0.065813" type="cylinder"/>
                                     <geom size="0.008 0.026476" pos="-0.018476 0 -0.057813" quat="0.707107 0 0.707107 0" type="cylinder"/>

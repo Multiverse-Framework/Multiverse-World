@@ -107,7 +107,7 @@
 
     <!-- Window 4 -->
     <joint name="window4_frame_joint" type="fixed">
-      <origin xyz="0.671098 3.37273 1.72145" rpy="0.0 0.0 ${-pi/2}"/>
+      <origin xyz="0.671098 3.37273 1.52145" rpy="0.0 0.0 ${-pi/2}"/>
       <parent link="envelope_root" />
       <child link="window4_frame" />
     </joint>
