@@ -1,15 +1,39 @@
-<launch>
+<?xml version="1.0"?>
+<launch>  
+    
+    <!--arg name="urdf" default="$(find isr_testbed)/urdf/isr-testbed.urdf" /-->  
 
-  <arg name="urdf" default="$(find isr_testbed)/urdf/isr-testbed.urdf" />
+    <!-- hsr description-->
+    <param name="robot_description"
+           command="$(find xacro)/xacro
+                    '$(find hsr_description)/robots/hsrb4s.urdf.xacro'"/>
 
-  <param name="robot_description" command="$(find xacro)/xacro '$(arg urdf)'" />
 
-  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+    <!-- gazebo args -->
+    <env name="GAZEBO_MODEL_PATH" value="$(find isr_testbed)/world/models"/>
+    <env name="GAZEBO_RESOURCE_PATH" value="$(find isr_testbed)/world/models"/>
+    <arg name="map_name" value="wrs2020/map.yaml" />
+    <arg name="robot_spawn_pose_x" default="0.3" />
+    <arg name="robot_spawn_pose_y" default="-2.5" />
+    <arg name="robot_spawn_pose_z" default="0" />
+    <arg name="robot_spawn_rotation" default="0 "/>
+    <arg name="paused" default="true"/>
+    
+    <!-- startup simulated world -->
+    <include file="$(find hsrb_gazebo_launch)/launch/include/hsrb_gazebo_common.xml" pass_all_args="true">
+        <arg name="world_name" default="$(find isr_testbed)/world/worlds/isr-testbed.world"/>
+        <arg name="map" default="$(find suturo_resources)/maps/$(arg map_name)" />
+        <arg name="robot_pos" value="-x $(arg robot_spawn_pose_x) -y $(arg robot_spawn_pose_y) -z $(arg robot_spawn_pose_z) -Y $(arg robot_spawn_rotation)"/>
+        <arg name="ground_truth_xyz_offset" value="0.0\ 0.0\ 0.0" />
+        <arg name="ground_truth_rpy_offset" value="0.0\ 0.0\ 0.0" />
+        
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="rviz" value = "true" />
+  
+    </include>
 
-  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui"
-    type="joint_state_publisher_gui" />
-
-  <node pkg="rviz" type="rviz" name="rviz" output="screen"
-    args="-d $(find isr_testbed)/rviz_config/rviz_config.rviz" />
+<node pkg="rostopic" type="rostopic" name="rostopic" args="pub /laser_2d_correct_pose geometry_msgs/PoseWithCovarianceStamped '
+{header: { seq: 0, stamp: {secs: 0, nsecs: 0},
+    frame_id: 'map'}, pose:{ pose:{ position:{ x: 0.3, y: -2.5, z: 0.0}, orientation:{ x: 0.0, y: 0.0, z: 0.0, w: 1.0} }, covariance:[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'"/>
 
 </launch>
