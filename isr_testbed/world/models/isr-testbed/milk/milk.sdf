@@ -27,7 +27,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/milk.dae</uri>
+            <uri>/opt/ros/noetic/share/cob_gazebo_objects/Media/models/milk.dae</uri>
           </mesh>
         </geometry>
       </visual>

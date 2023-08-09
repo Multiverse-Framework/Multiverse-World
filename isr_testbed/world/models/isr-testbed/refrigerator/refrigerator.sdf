@@ -19,7 +19,7 @@
         <geometry>
           <mesh>
             <scale>0.75 0.75 0.75</scale>
-            <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/refridgerator.dae</uri>
+            <uri>/opt/ros/noetic/share/cob_gazebo_objects/Media/models/refridgerator.dae</uri>
           </mesh>
         </geometry>
       </collision>
@@ -28,7 +28,7 @@
         <geometry>
           <mesh>
             <scale>0.75 0.75 0.75</scale>
-            <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/refridgerator.dae</uri>
+            <uri>/opt/ros/noetic/share/cob_gazebo_objects/Media/models/refridgerator.dae</uri>
           </mesh>
         </geometry>
       </visual>

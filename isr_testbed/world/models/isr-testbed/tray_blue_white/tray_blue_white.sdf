@@ -41,7 +41,7 @@
         <geometry>
           <mesh>
             <scale>0.6 0.6 0.8</scale>
-            <uri>/opt/ros/kinetic/share/cob_gazebo_objects/Media/models/tray_blue_white.dae</uri>
+            <uri>/opt/ros/noetic/share/cob_gazebo_objects/Media/models/tray_blue_white.dae</uri>
           </mesh>
         </geometry>
         <material>
