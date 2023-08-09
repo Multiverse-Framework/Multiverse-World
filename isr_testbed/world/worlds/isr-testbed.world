@@ -43,13 +43,13 @@
 
     <!-- Walls apartment -->
     <include>
-        <uri>file://isr-testbed/walls</uri>
+        <uri>model://isr-testbed/walls</uri>
         <pose>0.491830 0.433522 0 0 0 0</pose>
     </include>
 
     <!-- Walls outside -->
     <include>
-        <uri>file://isr-testbed/wall</uri>
+        <uri>model://isr-testbed/wall</uri>
         <pose>-1.19 1.86 0 0 0 0</pose>
     </include>
 
@@ -353,15 +353,6 @@
             <uri>file://isr-testbed/aruco_marker_0</uri>
             <pose>1.5 1.96 0.8 0 0 -1.5707963267948966</pose>
         </include>
-
-    <!-- focus camera to view the whole testbed at startup -->
-    <gui fullscreen='0'>
-        <camera name='user_camera'>
-            <pose frame=''>6.75942 -8.32467 9.76061 0 0.739643 2.1722</pose>
-            <view_controller>orbit</view_controller>
-            <projection_type>perspective</projection_type>
-        </camera>
-    </gui>
 
 </world>
 </sdf>
