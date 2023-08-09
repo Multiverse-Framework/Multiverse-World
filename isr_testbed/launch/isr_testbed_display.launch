@@ -7,12 +7,16 @@
     <param name="robot_description"
            command="$(find xacro)/xacro
                     '$(find hsr_description)/robots/hsrb4s.urdf.xacro'"/>
-
-
+                    
+                    
+    <!-- Environment urdf. Currently not correct (rviz: No transform from objects to map)--> 
+    <!--arg name="urdf" default="$(find isr_testbed)/urdf/isr-testbed.urdf" />
+    <param name="environment_description" command="$(find xacro)/xacro '$(arg urdf)'" /-->
+    
     <!-- gazebo args -->
     <env name="GAZEBO_MODEL_PATH" value="$(find isr_testbed)/world/models"/>
     <env name="GAZEBO_RESOURCE_PATH" value="$(find isr_testbed)/world/models"/>
-    <arg name="map_name" value="wrs2020/map.yaml" />
+    <arg name="map_name" value="fake_map/map.yaml" />
     <arg name="robot_spawn_pose_x" default="0.3" />
     <arg name="robot_spawn_pose_y" default="-2.5" />
     <arg name="robot_spawn_pose_z" default="0" />
@@ -22,7 +26,7 @@
     <!-- startup simulated world -->
     <include file="$(find hsrb_gazebo_launch)/launch/include/hsrb_gazebo_common.xml" pass_all_args="true">
         <arg name="world_name" default="$(find isr_testbed)/world/worlds/isr-testbed.world"/>
-        <arg name="map" default="$(find suturo_resources)/maps/$(arg map_name)" />
+        <arg name="map" default="$(find isr_testbed)/map/$(arg map_name)" />
         <arg name="robot_pos" value="-x $(arg robot_spawn_pose_x) -y $(arg robot_spawn_pose_y) -z $(arg robot_spawn_pose_z) -Y $(arg robot_spawn_rotation)"/>
         <arg name="ground_truth_xyz_offset" value="0.0\ 0.0\ 0.0" />
         <arg name="ground_truth_rpy_offset" value="0.0\ 0.0\ 0.0" />
