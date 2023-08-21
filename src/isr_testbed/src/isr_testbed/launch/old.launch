@@ -1,0 +1,42 @@
+<launch>
+
+  <arg name="urdf" default="$(find isr_testbed)/urdf/isr-testbed.urdf" />
+  
+  
+  <arg name="loc_of_urdf_1" default="world"/>
+  <arg name="tf_prefix" default="iai_kitchen"/>
+
+  <param name="$(arg loc_of_urdf_1)" command="$(find xacro)/xacro '$(arg urdf)'" />
+
+  <!--node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" /-->
+
+
+  <arg name="joint_states_prefix" default="iai_kitchen"/>
+  
+
+  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui"
+    type="joint_state_publisher_gui" >
+    <remap from="robot_description" to="$(arg loc_of_urdf_1)"/>
+    <param name="rate" value="25"/>
+    <param name="use_gui" value="True"/>
+    <remap from="/joint_states" to="/$(arg joint_states_prefix)/joint_states" />
+    <rosparam param="source_list">
+      - /kitchen/cram_joint_states
+    </rosparam>
+  </node>
+  <node pkg="rviz" type="rviz" name="rviz" output="screen"
+    args="-d $(find isr_testbed)/rviz_config/rviz_config.rviz" />
+    
+   <node pkg="tf" type="static_transform_publisher" name="environment_link_broadcaster"
+    args="0 0 0 0 0 0 /map /$(arg tf_prefix)/urdf_main 25">
+  </node>
+  
+  <node pkg="robot_state_publisher" type="robot_state_publisher"
+    name="environment_state_publisher" output="screen">
+    <param name="tf_prefix" value="/$(arg tf_prefix)"/>
+    <param name="publish_frequency" value="2"/>
+    <remap from="robot_description" to="$(arg loc_of_urdf_1)" />
+    <remap from="/joint_states" to="/$(arg joint_states_prefix)/joint_states" />
+  </node>
+
+</launch>
