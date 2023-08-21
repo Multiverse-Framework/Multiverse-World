@@ -708,8 +708,8 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
       Name: RobotModel
-      Robot Description: world
-      TF Prefix: isr_testbed
+      Robot Description: kitchen_description
+      TF Prefix: kitchen_description
       Update Interval: 0
       Value: true
       Visual Enabled: true
@@ -741,7 +741,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 7.084449768066406
+      Distance: 8.886734008789062
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -749,17 +749,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.8330950140953064
-        Y: 0.5636860132217407
-        Z: 0.3158400058746338
+        X: 1.0502599477767944
+        Y: -0.2748451232910156
+        Z: 0.24773862957954407
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8803989887237549
+      Pitch: 1.3053985834121704
       Target Frame: <Fixed Frame>
-      Yaw: 0.699970006942749
+      Yaw: 6.243155002593994
     Saved: ~
 Window Geometry:
   Displays:
@@ -778,4 +778,4 @@ Window Geometry:
     collapsed: false
   Width: 1920
   X: 0
-  Y: 214
+  Y: 101
