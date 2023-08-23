@@ -48,11 +48,37 @@
   <!--   <test_depend>gtest</test_depend> -->
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
-  <buildtool_depend>catkin</buildtool_depend>
+  <!--buildtool_depend>catkin</buildtool_depend>
   <build_depend>cram_language</build_depend>
-  <build_export_depend>cram_language</build_export_depend>
+  <build_export_depend>cram_language</build_export_depend-->
   <exec_depend>cram_language</exec_depend>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslisp</build_depend>
+  <build_depend>cl_tf2</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roslisp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roslisp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  
   <depend>cram_process_modules</depend>
+  
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roslisp_utilities</depend>
+  <depend>cl_transforms</depend>
+  <depend>cl_transforms_stamped</depend>
+  <depend>cl_tf</depend>
+  <depend>cram_tf</depend>
+  <!--depend>cram_language</depend-->
+  <depend>cram_executive</depend>
+  <depend>cram_designators</depend>
+  <depend>cram_prolog</depend>
+  
+  
+  <depend>cram_hsrb_description</depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

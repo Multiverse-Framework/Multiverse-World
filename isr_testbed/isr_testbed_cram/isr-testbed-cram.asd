@@ -21,9 +21,22 @@
                cram-prolog
                cram-projection
                cram-occasions-events
-               cram-utilities)
+               cram-utilities
+               
+               cram-common-designators
+               
+               cram-common-failures
+               
+               cram-hsrb-description
+               
+               navigation_msgs-msg
+               move_base_msgs-msg
+               
+               )
   :components
   ((:module "src"
             :components
             ((:file "package")
-            (:file "isr-testbed-test" :depends-on ("package"))))))
+            (:file "isr-testbed-test" :depends-on ("package"))
+            (:file "process-module" :depends-on ("package"))
+            ))))
