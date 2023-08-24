@@ -1,11 +1,10 @@
 (defsystem isr-testbed-cram
-  :depends-on (roslisp ;cram-language turtlesim-msg turtlesim-srv cl-transforms geometry_msgs-msg)
+  :depends-on (roslisp cram-language turtlesim-msg turtlesim-srv cl-transforms geometry_msgs-msg
                roslisp-utilities ; for ros-init-function
-
 	       actionlib
                actionlib_msgs-msg
 
-               cl-transforms
+               ;cl-transforms
                cl-transforms-stamped
                cl-tf
 	       cl-tf2
@@ -18,7 +17,7 @@
                cram-language
                cram-executive
                cram-designators
-               cram-prolog
+               ;cram-prolog
                cram-projection
                cram-occasions-events
                cram-utilities

@@ -53,7 +53,9 @@
   <build_export_depend>cram_language</build_export_depend-->
   <exec_depend>cram_language</exec_depend>
   
-  <buildtool_depend>catkin</buildtool_depend>
+  <depend>cram_process_modules</depend>
+  
+  
   <build_depend>roslisp</build_depend>
   <build_depend>cl_tf2</build_depend>
   <build_depend>std_msgs</build_depend>
@@ -61,10 +63,6 @@
   <build_export_depend>std_msgs</build_export_depend>
   <exec_depend>roslisp</exec_depend>
   <exec_depend>std_msgs</exec_depend>
-  
-  <depend>cram_process_modules</depend>
-  
-
   
   <buildtool_depend>catkin</buildtool_depend>
   <depend>roslisp_utilities</depend>
@@ -75,7 +73,7 @@
   <!--depend>cram_language</depend-->
   <depend>cram_executive</depend>
   <depend>cram_designators</depend>
-  <depend>cram_prolog</depend>
+  <!--depend>cram_prolog</depend-->
   
   
   <depend>cram_hsrb_description</depend>

@@ -1,6 +1,7 @@
 (defpackage :isr-testbed-cram
   (:nicknames :isr)
-  (:use #:common-lisp #:cram-prolog #:cram-designators #:cram-executive #:cram-common-designators)
+  (:use :cpl :roslisp :cl-transforms #:cram-designators #:cram-process-modules
+        #:cram-language-designator-support #:cram-designators #:cram-executive #:cram-common-designators)
   
   (:export
    #:isr-testbed-test
