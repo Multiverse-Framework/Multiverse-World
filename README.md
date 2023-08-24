@@ -4,7 +4,13 @@
 ## isr_testbed:
 ### Installation:
 
-#### Gazebo objects
+#### ROS:
+- if you don't have ROS installed open a terminal and insert:
+  - sudo apt-get install ros-noetic-roslisp-repl
+
+#### Gazebo
+- if you dont have Gazebo installed open a terminal and insert:
+  - curl -sSL http://get.gazebosim.org | sh
 
 - Download cob gazebo objects
   - Sudo apt install ros-noetic-cob-gazebo-objects 
@@ -21,11 +27,15 @@
   - git clone https://github.com/K3cks/Multiverse-World
  
 - clone cram repository and checkout devel branch
-  - git clone https://github.com/cram2/cram.git && cd cram
-  - git checkout devel
+  - git clone https://github.com/cram2/cram.git
+  - cd cram && git checkout devel  
 
-- go into workspace directory, build and then source workspace
+- go into workspace directory, update dependencies
   - cd ..
+  - rosdep update
+  - rosdep install --ignore-src --from-paths src/ -r
+  
+- Then build and source the workspace 
   - catkin build
   - source /devel/setup.bash
 
