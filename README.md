@@ -20,8 +20,9 @@
 - clone the main branch of this git repository
   - git clone https://github.com/K3cks/Multiverse-World
  
-- clone cram repository
-  - git clone https://github.com/cram2/cram.git
+- clone cram repository and checkout devel branch
+  - git clone https://github.com/cram2/cram.git && cd cram
+  - git checkout devel
 
 - go into workspace directory, build and then source workspace
   - cd ..
@@ -32,15 +33,20 @@
 
 With sourced workspace: 'roslaunch isr\_testbed isr\_testbed.launch'
 
-On Gazebo: Press play
+- On Gazebo: Press play
 
-upload other hsrb_description
+- upload other hsrb_description
+  - roslaunch isr\_testbed upload\_hsrb.launch 
 
-open roslisp_repl
+- roslisp_repl in new terminal
 
-load package (ros-load:load-system "isr\_testbed\_cram" :isr-testbed-cram)
+- Load and get in package, start ros
+  - load package (ros-load:load-system "isr\_testbed\_cram" :isr-testbed-cram)
+  - (in-package :isr-testbed)
+  - (start-ros)
 
-(in-package :isr-testbed)
+- Finally you can start the demo
+  - (with-hsr-process-modules (isr-demo))
 
 
 
