@@ -12,6 +12,7 @@
 
     <default>
         <geom condim="4" solimp="0.99 0.99 0" solref="0.01 1" />
+        <joint damping="0.7" />
     </default>
 
     <asset>
@@ -24,10 +25,6 @@
             friction="2 0.05 0.01" />
         <light diffuse=".5 .5 .5" pos="0 0 5" dir="0 0 -1" />
     </worldbody>
-
-    <default>
-        <joint damping="0.1" />
-    </default>
 
     <worldbody>
         <body name="apartment">
