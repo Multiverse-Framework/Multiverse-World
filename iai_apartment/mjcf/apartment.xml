@@ -3,7 +3,7 @@
 	
     <statistic meansize="0.698866" extent="24.6878" center="9.40261 -0.0183012 1.53439"/>
 
-    <option timestep="0.001" integrator="Euler" gravity="0 0 -9.81" >
+    <option timestep="0.001" integrator="Euler" gravity="0 0 -9.81" noslip_iterations="2" noslip_tolerance="1e-9">
         <flag sensornoise="disable" energy="disable" contact="enable" />
     </option>
 
@@ -528,10 +528,10 @@
 						<geom name="cabinet9_drawer1_collision_0" pos="0.021031 0.270267 -0.01336" quat="0.5692407223662059 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.042633"/>
 						<geom name="cabinet9_drawer1_collision_3" pos="0.260372 0.0 -0.01336" quat="0.5745513467045396 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.269804 0.042633"/>
 						<geom name="cabinet9_drawer1_collision_2" pos="-0.233977 0.0 0.0" quat="0.5858670924365014 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.298468 0.064993"/>
-						<joint name="cabinet9_drawer1_joint" pos="-1.5959455978986625e-16 6.505213034913027e-19 5.551115123125783e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
+						<joint name="cabinet9_drawer1_joint" springref="-0.5" stiffness="1" damping="1" pos="-1.5959455978986625e-16 6.505213034913027e-19 5.551115123125783e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
 						<body name="cabinet9_drawer1_handle" pos="-0.26980945999999983 0.00142363000000012 0.016769490000000054" quat="0.7071067811865476 0.7071067811865475 0.0 0.0">
 							<geom name="cabinet9_drawer1_handle_visual_0" pos="0.0 0.0 0.0" quat="1.0 0.0 0.0 0.0" class="visual" type="mesh" mesh="SM_Kitchen_Handle_visual1d01d01d0"/>
-							<geom name="cabinet9_drawer1_handle_collision_2" pos="0.0 0.0 0.0" quat="0.5242890424183972 0.0 0.0 0.0" class="collision" type="box" size="0.0065 0.0065 0.086516"/>
+							<geom name="cabinet9_drawer1_handle_collision_2" pos="0.0 0.0 0.0" quat="0.5242890424183972 0.0 0.0 0.0" class="collision" type="box" size="0.0065 0.0065 0.086516" friction="2 0.005 0.0001"/>
 							<geom name="cabinet9_drawer1_handle_collision_1" pos="0.0164985 0.0 -0.08" quat="0.5057173123396113 0.0 0.0 0.0" class="collision" type="box" size="0.01 0.0065 0.0065"/>
 							<geom name="cabinet9_drawer1_handle_collision_0" pos="0.0164985 0.0 0.08" quat="0.5057173123396113 0.0 0.0 0.0" class="collision" type="box" size="0.01 0.0065 0.0065"/>
 						</body>
@@ -545,12 +545,12 @@
 						<geom name="cabinet9_drawer2_collision_0" pos="0.021031 0.270267 0.041246" quat="0.5623957681206359 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011649"/>
 						<geom name="cabinet9_drawer2_collision_2" pos="0.021031 0.270267 -0.078968" quat="0.5690463513634016 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041748"/>
 						<geom name="cabinet9_drawer2_visual_0" pos="0.0 0.0 0.0" quat="1.0 0.0 0.0 0.0" class="visual" type="mesh" material="SM_Kitchen_09_Drawer_02_visual1d01d01d0" mesh="SM_Kitchen_09_Drawer_02_visual1d01d01d0"/>
-						<joint name="cabinet9_drawer2_joint" pos="1.457167719820518e-16 -1.0408340855860843e-16 -5.551115123125783e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
+						<joint name="cabinet9_drawer2_joint" springref="-0.5" stiffness="1" damping="5" pos="1.457167719820518e-16 -1.0408340855860843e-16 -5.551115123125783e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
 						<body name="cabinet9_drawer2_handle" pos="-0.27071060000000013 0.001064130000000052 0.08500843000000002" quat="0.7071067811865476 0.7071067811865475 0.0 0.0">
 							<geom name="cabinet9_drawer2_handle_collision_0" pos="0.0164985 0.0 0.08" quat="0.5057173123396113 0.0 0.0 0.0" class="collision" type="box" size="0.01 0.0065 0.0065"/>
 							<geom name="cabinet9_drawer2_handle_visual_0" pos="0.0 0.0 0.0" quat="1.0 0.0 0.0 0.0" class="visual" type="mesh" mesh="SM_Kitchen_Handle_visual1d01d01d0"/>
 							<geom name="cabinet9_drawer2_handle_collision_1" pos="0.0164985 0.0 -0.08" quat="0.5057173123396113 0.0 0.0 0.0" class="collision" type="box" size="0.01 0.0065 0.0065"/>
-							<geom name="cabinet9_drawer2_handle_collision_2" pos="0.0 0.0 0.0" quat="0.5242890424183972 0.0 0.0 0.0" class="collision" type="box" size="0.0065 0.0065 0.086516"/>
+							<geom name="cabinet9_drawer2_handle_collision_2" pos="0.0 0.0 0.0" quat="0.5242890424183972 0.0 0.0 0.0" class="collision" type="box" size="0.0065 0.0065 0.086516" friction="2 0.005 0.0001"/>
 						</body>
 					</body>
 					<body name="cabinet9_drawer3" pos="-0.05045226000000014 -0.0016706300000000063 -0.19611331999999998" quat="1.0 0.0 0.0 0.0">
@@ -562,7 +562,7 @@
 						<geom name="cabinet9_drawer3_visual_0" pos="0.0 0.0 0.0" quat="1.0 0.0 0.0 0.0" class="visual" type="mesh" material="SM_Kitchen_09_Drawer_03_visual1d01d01d0" mesh="SM_Kitchen_09_Drawer_03_visual1d01d01d0"/>
 						<geom name="cabinet9_drawer3_collision_0" pos="0.021031 0.270267 -0.00926" quat="0.5623933232178348 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011638"/>
 						<geom name="cabinet9_drawer3_collision_1" pos="0.021031 -0.270267 -0.00926" quat="0.5623933232178348 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011638"/>
-						<joint name="cabinet9_drawer3_joint" pos="1.3877787807814457e-16 6.288372600415926e-18 -2.7755575615628914e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
+						<joint name="cabinet9_drawer3_joint" springref="-0.5" stiffness="1" damping="5" pos="1.3877787807814457e-16 6.288372600415926e-18 -2.7755575615628914e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
 						<body name="cabinet9_drawer3_handle" pos="-0.26888186000000003 0.0010287500000001337 0.15027037" quat="0.7071067811865476 0.7071067811865475 0.0 0.0">
 							<geom name="cabinet9_drawer3_handle_collision_0" pos="0.0164985 0.0 0.08" quat="0.5057173123396113 0.0 0.0 0.0" class="collision" type="box" size="0.01 0.0065 0.0065"/>
 							<geom name="cabinet9_drawer3_handle_collision_1" pos="0.0164985 0.0 -0.08" quat="0.5057173123396113 0.0 0.0 0.0" class="collision" type="box" size="0.01 0.0065 0.0065"/>
