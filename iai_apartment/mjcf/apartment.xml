@@ -4,7 +4,7 @@
     <statistic meansize="0.698866" extent="24.6878" center="9.40261 -0.0183012 1.53439"/>
 
     <option timestep="0.001" integrator="Euler" gravity="0 0 -9.81" noslip_iterations="2" noslip_tolerance="1e-9">
-        <flag sensornoise="disable" energy="disable" contact="enable" />
+        <flag sensornoise="disable" energy="enable" contact="enable" />
     </option>
 
     <default>
