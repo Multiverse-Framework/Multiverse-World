@@ -18,7 +18,7 @@
     <link name="wall1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Wall_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Wall_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -37,7 +37,7 @@
     <link name="wall2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Wall_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Wall_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -56,7 +56,7 @@
     <link name="wall3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Wall_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Wall_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -81,7 +81,7 @@
     <link name="wall4">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Wall_04.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Wall_04.dae" />
         </geometry>
       </visual>
       <collision>
@@ -100,7 +100,7 @@
     <link name="windows">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/windows_without_4.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/windows_without_4.dae" />
         </geometry>
       </visual>
     </link>
@@ -114,7 +114,7 @@
     <link name="window4_frame">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Frame.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Window_Frame.dae" />
         </geometry>
       </visual>
       <collision>
@@ -165,7 +165,7 @@
     <link name="window4_right">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Right.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Window_Right.dae" />
         </geometry>
       </visual>
       <collision>
@@ -193,7 +193,7 @@
     <link name="window4_right_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Window_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -226,7 +226,7 @@
     <link name="window4_left">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Left.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Window_Left.dae" />
         </geometry>
       </visual>
       <collision>
@@ -254,7 +254,7 @@
     <link name="window4_left_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Window_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Window_Handle.dae" />
         </geometry>
       </visual>
       <collision>

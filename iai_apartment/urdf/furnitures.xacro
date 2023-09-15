@@ -17,7 +17,7 @@
     <link name="wardrobe">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/wardrobe.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/wardrobe.dae" />
         </geometry>
       </visual>
       <collision>
@@ -122,7 +122,7 @@
     <link name="wardrobe_door_left">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/wardrobe_door_left.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/wardrobe_door_left.dae" />
         </geometry>
       </visual>
       <collision>
@@ -140,7 +140,7 @@
     <link name="wardrobe_door_left_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/wardrobe_door_handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/wardrobe_door_handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -172,7 +172,7 @@
     <link name="wardrobe_door_right">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/wardrobe_door_right.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/wardrobe_door_right.dae" />
         </geometry>
       </visual>
       <collision>
@@ -190,7 +190,7 @@
     <link name="wardrobe_door_right_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/wardrobe_door_handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/wardrobe_door_handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -221,12 +221,12 @@
     <link name="armchair">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/armchair.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/armchair.dae" />
         </geometry>
       </visual>
       <collision>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/collision/armchair.stl" />
+          <mesh filename="package://iai_apartment/meshes/stf/armchair.stl" />
         </geometry>
       </collision>
     </link>
@@ -238,12 +238,12 @@
     <link name="sofa">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/sofa.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/sofa.dae" />
         </geometry>
       </visual>
       <collision>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/collision/sofa.stl" />
+          <mesh filename="package://iai_apartment/meshes/stf/sofa.stl" />
         </geometry>
       </collision>
     </link>
@@ -255,7 +255,7 @@
     <link name="coffee_table">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/coffee_table.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/coffee_table.dae" />
         </geometry>
       </visual>
       <collision>
@@ -304,7 +304,7 @@
     <link name="coffee_table_drawer">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/coffee_table_drawer.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/coffee_table_drawer.dae" />
         </geometry>
       </visual>
       <collision>
@@ -346,7 +346,7 @@
     <link name="bedside_table">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/bedside_table.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/bedside_table.dae" />
         </geometry>
       </visual>
       <collision>

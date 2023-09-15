@@ -28,7 +28,7 @@
     <link name="cabinet1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_01_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_01_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -127,7 +127,7 @@
     <link name="cabinet1_door">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_01_Door_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_01_Door_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -147,7 +147,7 @@
     <link name="cabinet1_door_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -181,7 +181,7 @@
     <link name="cabinet1_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_01_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_01_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -237,7 +237,7 @@
     <link name="cabinet1_drawer1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -271,7 +271,7 @@
     <link name="cabinet1_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_01_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_01_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -327,7 +327,7 @@
     <link name="cabinet1_drawer2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -359,7 +359,7 @@
     <link name="oven">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Oven.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Oven.dae" />
         </geometry>
       </visual>
       <collision>
@@ -405,7 +405,7 @@
     <link name="oven_door">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Oven_Door.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Oven_Door.dae" />
         </geometry>
       </visual>
       <collision>
@@ -426,7 +426,7 @@
     <link name="cabinet2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -484,7 +484,7 @@
     <link name="cabinet2_door">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Door.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Door.dae" />
         </geometry>
       </visual>
       <collision>
@@ -504,7 +504,7 @@
     <link name="cabinet2_door_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -536,7 +536,7 @@
     <link name="cabinet2_shelf">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Shelf.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Shelf.dae" />
         </geometry>
       </visual>
       <collision>
@@ -558,7 +558,7 @@
     <link name="cabinet2_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -604,7 +604,7 @@
     <link name="cabinet2_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -680,7 +680,7 @@
     <link name="cabinet2_drawer3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -756,7 +756,7 @@
     <link name="cabinet2_drawer4">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -832,7 +832,7 @@
     <link name="cabinet2_drawer5">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -908,7 +908,7 @@
     <link name="cabinet2_drawer6">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_02_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_02_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -983,7 +983,7 @@
     <link name="cabinet3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_03_Fridge.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_03_Fridge.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1065,7 +1065,7 @@
     <link name="fridge_door1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Door_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Door_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1091,7 +1091,7 @@
     <link name="fridge_door1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1123,7 +1123,7 @@
     <link name="fridge_door_tray1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Door_Tray_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Door_Tray_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1167,7 +1167,7 @@
     <link name="fridge_door_tray2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Door_Tray_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Door_Tray_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1211,12 +1211,12 @@
     <link name="fridge_egg_tray">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Egg_Tray.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Egg_Tray.dae" />
         </geometry>
       </visual>
       <!-- <collision>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Egg_Tray.stl" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Egg_Tray.stl" />
         </geometry>
       </collision> -->
     </link>
@@ -1232,7 +1232,7 @@
     <link name="fridge_door2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Door_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Door_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1258,7 +1258,7 @@
     <link name="fridge_door2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1290,7 +1290,7 @@
     <link name="fridge_base">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1370,7 +1370,7 @@
     <link name="fridge_shelf1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Shelf.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Shelf.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1390,7 +1390,7 @@
     <link name="fridge_shelf2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Shelf.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Shelf.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1412,7 +1412,7 @@
     <link name="fridge_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1464,7 +1464,7 @@
     <link name="fridge_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1516,7 +1516,7 @@
     <link name="fridge_drawer3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Drawer_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Drawer_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1568,7 +1568,7 @@
     <link name="fridge_drawer4">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Drawer_04.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Drawer_04.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1620,7 +1620,7 @@
     <link name="fridge_drawer5">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Fridge_Drawer_05.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Fridge_Drawer_05.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1671,7 +1671,7 @@
     <link name="cabinet4">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_04_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_04_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1721,7 +1721,7 @@
     <link name="cabinet4_door1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_04_Door_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_04_Door_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1741,7 +1741,7 @@
     <link name="cabinet4_door2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_04_Door_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_04_Door_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1761,7 +1761,7 @@
     <link name="cabinet4_door2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1793,7 +1793,7 @@
     <link name="cabinet4_shelf1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_04_Shelf.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_04_Shelf.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1813,7 +1813,7 @@
     <link name="cabinet4_shelf2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_04_Shelf.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_04_Shelf.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1834,7 +1834,7 @@
     <link name="counter_wall">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Counter_Wall.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Counter_Wall.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1854,7 +1854,7 @@
     <link name="cabinet5">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_05_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_05_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1900,7 +1900,7 @@
     <link name="cabinet5_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_05_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_05_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1944,7 +1944,7 @@
     <link name="cabinet5_drawer1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -1978,7 +1978,7 @@
     <link name="cabinet5_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_05_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_05_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2034,7 +2034,7 @@
     <link name="cabinet5_drawer2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2068,7 +2068,7 @@
     <link name="cabinet5_drawer3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_05_Drawer_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_05_Drawer_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2124,7 +2124,7 @@
     <link name="cabinet5_drawer3_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2157,7 +2157,7 @@
     <link name="cabinet6">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_06_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_06_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2203,7 +2203,7 @@
     <link name="cabinet6_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_06_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_06_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2247,7 +2247,7 @@
     <link name="cabinet6_drawer1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2281,7 +2281,7 @@
     <link name="cabinet6_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_06_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_06_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2337,7 +2337,7 @@
     <link name="cabinet6_drawer2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2371,7 +2371,7 @@
     <link name="cabinet6_drawer3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_06_Drawer_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_06_Drawer_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2427,7 +2427,7 @@
     <link name="cabinet6_drawer3_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2466,7 +2466,7 @@
     <link name="kitchen1_base_board">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Base_Board_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Base_Board_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2480,7 +2480,7 @@
     <link name="island_cover4">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Island_Cover_04.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Island_Cover_04.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2509,7 +2509,7 @@
     <link name="counter_sink_stove">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Counter_Sink_Stove.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Counter_Sink_Stove.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2553,7 +2553,7 @@
     <link name="stove">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Stove.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Stove.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2573,7 +2573,7 @@
     <link name="counter_sink">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Counter_Sink.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Counter_Sink.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2617,7 +2617,7 @@
     <link name="counter_watertab">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Counter_Watertab.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Counter_Watertab.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2685,7 +2685,7 @@
     <link name="counter_sink_tap">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Counter_Sink_Tap.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Counter_Sink_Tap.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2712,7 +2712,7 @@
     <link name="dishwasher">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Dishwasher_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Dishwasher_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2770,7 +2770,7 @@
     <link name="dishwasher_front">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Dishwasher_Front.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Dishwasher_Front.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2796,7 +2796,7 @@
     <link name="dishwasher_front_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2830,7 +2830,7 @@
     <link name="dishwasher_tray1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Dishwasher_Tray_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Dishwasher_Tray_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2876,7 +2876,7 @@
     <link name="dishwasher_tray2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Dishwasher_Tray_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Dishwasher_Tray_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2922,7 +2922,7 @@
     <link name="dishwasher_tray3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Dishwasher_Tray_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Dishwasher_Tray_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2943,7 +2943,7 @@
     <link name="cabinet8">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_08_Sink_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_08_Sink_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -2989,7 +2989,7 @@
     <link name="sink_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_08_Sink_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_08_Sink_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3199,7 +3199,7 @@
     <link name="sink_drawer1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3233,7 +3233,7 @@
     <link name="sink_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_08_Sink_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_08_Sink_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3290,7 +3290,7 @@
     <link name="cabinet9">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_09_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_09_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3336,7 +3336,7 @@
     <link name="cabinet9_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_09_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_09_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3380,7 +3380,7 @@
     <link name="cabinet9_drawer1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3414,7 +3414,7 @@
     <link name="cabinet9_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_09_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_09_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3470,7 +3470,7 @@
     <link name="cabinet9_drawer2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3504,7 +3504,7 @@
     <link name="cabinet9_drawer3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_09_Drawer_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_09_Drawer_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3560,7 +3560,7 @@
     <link name="cabinet9_drawer3_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3593,7 +3593,7 @@
     <link name="cabinet10">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_10_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_10_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3639,7 +3639,7 @@
     <link name="cabinet10_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_10_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_10_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3683,7 +3683,7 @@
     <link name="cabinet10_drawer1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3717,7 +3717,7 @@
     <link name="cabinet10_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_10_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_10_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3773,7 +3773,7 @@
     <link name="cabinet10_drawer2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3807,7 +3807,7 @@
     <link name="cabinet10_drawer3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_10_Drawer_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_10_Drawer_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3863,7 +3863,7 @@
     <link name="cabinet10_drawer3_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3896,7 +3896,7 @@
     <link name="cabinet11">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_11_Base.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_11_Base.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3942,7 +3942,7 @@
     <link name="cabinet11_drawer1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_11_Drawer_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_11_Drawer_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -3986,7 +3986,7 @@
     <link name="cabinet11_drawer1_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4020,7 +4020,7 @@
     <link name="cabinet11_drawer2">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_11_Drawer_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_11_Drawer_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4076,7 +4076,7 @@
     <link name="cabinet11_drawer2_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4110,7 +4110,7 @@
     <link name="cabinet11_drawer3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_11_Drawer_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_11_Drawer_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4166,7 +4166,7 @@
     <link name="cabinet11_drawer3_handle">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Handle.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Handle.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4199,7 +4199,7 @@
     <link name="kitchen2_base_board">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Base_Board_02.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Base_Board_02.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4219,7 +4219,7 @@
     <link name="island_cover1">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Island_Cover_01.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Island_Cover_01.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4239,7 +4239,7 @@
     <link name="island_cover3">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Island_Cover_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Island_Cover_03.dae" />
         </geometry>
       </visual>
       <collision>
@@ -4259,7 +4259,7 @@
     <link name="island_cover5">
       <visual>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/visual/SM_Kitchen_Island_Cover_03.dae" />
+          <mesh filename="package://iai_apartment/meshes/dae/SM_Kitchen_Island_Cover_03.dae" />
         </geometry>
       </visual>
       <collision>
