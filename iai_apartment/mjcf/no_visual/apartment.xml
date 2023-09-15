@@ -3,7 +3,7 @@
 	<compiler meshdir="../../meshes/" angle="radian" autolimits="true" balanceinertia="true" boundmass="0.000001" boundinertia="0.000001"/>
 
 	<option timestep="0.001" integrator="Euler" gravity="0 0 -9.81" noslip_iterations="2" noslip_tolerance="1e-9">
-        <flag sensornoise="disable" energy="enable" contact="enable" />
+        <flag sensornoise="disable" energy="disable" contact="enable" />
     </option>
 
     <default>
@@ -265,7 +265,7 @@
 								<geom name="cabinet9_drawer2_collision_5" pos="0.260372 0.0 -0.037996" quat="0.5835869686687666 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.269804 0.084491"/>
 								<geom name="cabinet9_drawer2_collision_4" pos="-0.233977 0.0 0.0" quat="0.5998631093841328 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.298468 0.131375"/>
 								<geom name="cabinet9_drawer2_collision_2" pos="0.021031 0.270267 -0.078968" quat="0.5690463513634016 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041748"/>
-								<geom name="cabinet9_drawer2_collision_6" pos="0.021031 0.0 -0.113735" quat="0.6171124289787072 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.269804 0.008"/>
+								<geom name="cabinet9_drawer2_collision_6" pos="0.021031 0.0 -0.113735" quat="0.6171124289787072 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.269804 0.008" friction="1 0.05 0.01"/>
 								<joint name="cabinet9_drawer2_joint" pos="1.457167719820518e-16 -1.0408340855860843e-16 -5.551115123125783e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
 								<body name="cabinet9_drawer2_handle" pos="-0.27071060000000013 0.001064130000000052 0.08500843000000002" quat="0.7071067811865476 0.7071067811865475 0.0 0.0">
 									<geom name="cabinet9_drawer2_handle_collision_2" pos="0.0 0.0 0.0" quat="0.5242890424183972 0.0 0.0 0.0" class="collision" type="box" size="0.0065 0.0065 0.086516"/>
