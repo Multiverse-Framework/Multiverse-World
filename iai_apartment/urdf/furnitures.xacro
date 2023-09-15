@@ -226,7 +226,7 @@
       </visual>
       <collision>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/stf/armchair.stl" />
+          <mesh filename="package://iai_apartment/meshes/stl/armchair.stl" />
         </geometry>
       </collision>
     </link>
@@ -243,7 +243,7 @@
       </visual>
       <collision>
         <geometry>
-          <mesh filename="package://iai_apartment/meshes/stf/sofa.stl" />
+          <mesh filename="package://iai_apartment/meshes/stl/sofa.stl" />
         </geometry>
       </collision>
     </link>
