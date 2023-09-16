@@ -3,7 +3,7 @@
 	<compiler meshdir="../../meshes/" angle="radian" autolimits="true" balanceinertia="true" boundmass="0.000001" boundinertia="0.000001"/>
 
 	<option timestep="0.001" integrator="Euler" gravity="0 0 -9.81" noslip_iterations="2" noslip_tolerance="1e-9">
-        <flag sensornoise="disable" energy="disable" contact="enable" />
+        <flag sensornoise="disable" energy="enable" contact="enable" />
     </option>
 
     <default>
