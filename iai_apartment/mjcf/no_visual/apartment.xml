@@ -275,12 +275,12 @@
 							</body>
 							<body name="cabinet9_drawer3" pos="-0.05045226000000014 -0.0016706300000000063 -0.19611331999999998" quat="1.0 0.0 0.0 0.0">
 								<geom name="cabinet9_drawer3_collision_5" pos="0.260372 0.0 -0.088821" quat="0.5835042844744158 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.269804 0.084105"/>
-								<geom name="cabinet9_drawer3_collision_4" pos="-0.233977 0.0 0.0" quat="0.6135623440205568 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.280900 0.197867"/>
+								<geom name="cabinet9_drawer3_collision_4" pos="-0.233977 0.0 0.0" quat="0.6135623440205568 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.277900 0.186000"/>
 								<geom name="cabinet9_drawer3_collision_2" pos="0.021031 0.270267 -0.129424" quat="0.5690382236721888 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041711"/>
 								<geom name="cabinet9_drawer3_collision_0" pos="0.021031 0.270267 -0.00926" quat="0.5623933232178348 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011638"/>
 								<geom name="cabinet9_drawer3_collision_1" pos="0.021031 -0.270267 -0.00926" quat="0.5623933232178348 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011638"/>
 								<geom name="cabinet9_drawer3_collision_3" pos="0.021031 -0.270267 -0.129424" quat="0.5690382236721888 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041711"/>
-								<geom name="cabinet9_drawer3_collision_6" pos="0.021031 0.0 -0.164582" quat="0.6171124289787072 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.269804 0.008"/>
+								<geom name="cabinet9_drawer3_collision_6" pos="0.021031 0.0 -0.164582" quat="0.6171124289787072 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.239804 0.008"/>
 								<joint name="cabinet9_drawer3_joint" pos="1.3877787807814457e-16 6.288372600415926e-18 -2.7755575615628914e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
 								<body name="cabinet9_drawer3_handle" pos="-0.26888186000000003 0.0010287500000001337 0.15027037" quat="0.7071067811865476 0.7071067811865475 0.0 0.0">
 									<geom name="cabinet9_drawer3_handle_collision_2" pos="0.0 0.0 0.0" quat="0.5242890424183972 0.0 0.0 0.0" class="collision" type="box" size="0.0065 0.0065 0.086516"/>
@@ -297,7 +297,7 @@
 							<geom name="cabinet10_collision_0" pos="0.0 0.191779 0.0" quat="0.6488963707711733 0.0 0.0 0.0" class="collision" type="box" size="0.27726 0.008 0.399006"/>
 							<body name="cabinet10_drawer1" pos="-0.05095718000000016 0.000624590000000147 0.32565243" quat="1.0 0.0 0.0 0.0">
 								<geom name="cabinet10_drawer1_collision_4" pos="0.021031 0.0 -0.047595" quat="0.5982952866269298 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.178822 0.0075"/>
-								<geom name="cabinet10_drawer1_collision_2" pos="-0.233977 0.0 0.0" quat="0.5642162705913398 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.198867 0.064993"/>
+								<geom name="cabinet10_drawer1_collision_2" pos="-0.233977 0.0 0.0" quat="0.5642162705913398 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.178867 0.064993"/>
 								<geom name="cabinet10_drawer1_collision_0" pos="0.021031 0.170562 -0.01336" quat="0.5692407223662059 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.042633"/>
 								<geom name="cabinet10_drawer1_collision_1" pos="0.021031 -0.170562 -0.01336" quat="0.5692407223662059 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.042633"/>
 								<geom name="cabinet10_drawer1_collision_3" pos="0.260372 0.0 -0.01336" quat="0.5544039592210719 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.178822 0.042633"/>
@@ -312,10 +312,10 @@
 								<geom name="cabinet10_drawer2_collision_6" pos="0.021031 0.0 -0.113735" quat="0.5983997409758798 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.178822 0.008"/>
 								<geom name="cabinet10_drawer2_collision_1" pos="0.021031 -0.170562 0.041246" quat="0.5623957681206359 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011649"/>
 								<geom name="cabinet10_drawer2_collision_2" pos="0.021031 0.170562 -0.078968" quat="0.5690463513634016 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041748"/>
-								<geom name="cabinet10_drawer2_collision_3" pos="0.021031 -0.170562 -0.078968" quat="0.5690463513634016 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041748"/>
+								<geom name="cabinet10_drawer2_collision_3" pos="0.021031 -0.170562 -0.078968" quat="0.5690463513634016 0.0 0.0 0.0" class="collision" type="box" size="0.215507 0.008 0.041748"/>
 								<geom name="cabinet10_drawer2_collision_0" pos="0.021031 0.170562 0.041246" quat="0.5623957681206359 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011649"/>
-								<geom name="cabinet10_drawer2_collision_4" pos="-0.233977 0.0 0.0" quat="0.5787361229437817 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.198867 0.131375"/>
-								<geom name="cabinet10_drawer2_collision_5" pos="0.260372 0.0 -0.037996" quat="0.5637625830081312 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.178822 0.084491"/>
+								<geom name="cabinet10_drawer2_collision_4" pos="-0.233977 0.0 0.0" quat="0.5787361229437817 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.178867 0.131375"/>
+								<geom name="cabinet10_drawer2_collision_5" pos="0.260372 0.0 -0.037996" quat="0.5637625830081312 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.138822 0.084491"/>
 								<joint name="cabinet10_drawer2_joint" pos="2.7755575615628914e-17 2.448941657101633e-17 -5.551115123125783e-17" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
 								<body name="cabinet10_drawer2_handle" pos="-0.2668623700000001 -0.003978539999999864 0.08541794000000003" quat="0.7071067811865476 0.7071067811865475 0.0 0.0">
 									<geom name="cabinet10_drawer2_handle_collision_2" pos="0.0 0.0 0.0" quat="0.5242890424183972 0.0 0.0 0.0" class="collision" type="box" size="0.0065 0.0065 0.086516"/>
@@ -328,7 +328,7 @@
 								<geom name="cabinet10_drawer3_collision_5" pos="0.260372 0.0 -0.088821" quat="0.5636769908378378 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.178822 0.084105"/>
 								<geom name="cabinet10_drawer3_collision_3" pos="0.021031 -0.170562 -0.129424" quat="0.5690382236721888 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041711"/>
 								<geom name="cabinet10_drawer3_collision_6" pos="0.021031 0.0 -0.164582" quat="0.5983997409758798 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.178822 0.008"/>
-								<geom name="cabinet10_drawer3_collision_4" pos="-0.233977 0.0 0.0" quat="0.5929236881758057 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.198867 0.197867"/>
+								<geom name="cabinet10_drawer3_collision_4" pos="-0.233977 0.0 0.0" quat="0.5929236881758057 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.178000 0.167867"/>
 								<geom name="cabinet10_drawer3_collision_1" pos="0.021031 -0.170562 -0.00926" quat="0.5623933232178348 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011638"/>
 								<geom name="cabinet10_drawer3_collision_2" pos="0.021031 0.170562 -0.129424" quat="0.5690382236721888 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041711"/>
 								<joint name="cabinet10_drawer3_joint" pos="-1.457167719820518e-16 1.196959198423997e-16 0.0" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
@@ -348,7 +348,7 @@
 							<body name="cabinet11_drawer1" pos="-0.050822440000000135 0.0006393899999999064 0.31816875" quat="1.0 0.0 0.0 0.0">
 								<geom name="cabinet11_drawer1_collision_4" pos="0.021031 0.0 -0.047595" quat="0.6466828820991012 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.419788 0.0075"/>
 								<geom name="cabinet11_drawer1_collision_1" pos="0.021031 -0.418233 -0.01336" quat="0.5692407223662059 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.042633"/>
-								<geom name="cabinet11_drawer1_collision_2" pos="-0.233977 0.0 0.0" quat="0.6170158020666894 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.448341 0.064993"/>
+								<geom name="cabinet11_drawer1_collision_2" pos="-0.233977 0.0 0.0" quat="0.6170158020666894 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.419341 0.064000"/>
 								<geom name="cabinet11_drawer1_collision_0" pos="0.021031 0.418233 -0.01336" quat="0.5692407223662059 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.042633"/>
 								<geom name="cabinet11_drawer1_collision_3" pos="0.260372 0.0 -0.01336" quat="0.6063045851715126 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.419788 0.042633"/>
 								<joint name="cabinet11_drawer1_joint" pos="1.3183898417423734e-16 9.356664748549903e-17 0.0" type="slide" range="0.0 0.44999998807907104" axis="-0.9999999999999998 0.0 2.220446049250313e-16"/>
@@ -362,7 +362,7 @@
 								<geom name="cabinet11_drawer2_collision_2" pos="0.021031 0.418233 -0.078968" quat="0.5690463513634016 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041748"/>
 								<geom name="cabinet11_drawer2_collision_0" pos="0.021031 0.418233 0.041246" quat="0.5623957681206359 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011649"/>
 								<geom name="cabinet11_drawer2_collision_5" pos="0.260372 0.0 -0.037996" quat="0.6148737675328164 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.419788 0.084491"/>
-								<geom name="cabinet11_drawer2_collision_4" pos="-0.233977 0.0 0.0" quat="0.630320553369474 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.448341 0.131375"/>
+								<geom name="cabinet11_drawer2_collision_4" pos="-0.233977 0.0 0.0" quat="0.630320553369474 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.418341 0.125000"/>
 								<geom name="cabinet11_drawer2_collision_3" pos="0.021031 -0.418233 -0.078968" quat="0.5690463513634016 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041748"/>
 								<geom name="cabinet11_drawer2_collision_6" pos="0.021031 0.0 -0.113735" quat="0.6467795219392772 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.419788 0.008"/>
 								<geom name="cabinet11_drawer2_collision_1" pos="0.021031 -0.418233 0.041246" quat="0.5623957681206359 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011649"/>
@@ -375,7 +375,7 @@
 							</body>
 							<body name="cabinet11_drawer3" pos="-0.05077515000000021 0.0014635199999999404 -0.21330786000000002" quat="1.0 0.0 0.0 0.0">
 								<geom name="cabinet11_drawer3_collision_5" pos="0.260372 0.0 -0.088821" quat="0.614795291133561 0.0 0.0 0.0" class="collision" type="box" size="0.008 0.419788 0.084105"/>
-								<geom name="cabinet11_drawer3_collision_4" pos="-0.233977 0.0 0.0" quat="0.6433715878090981 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.448341 0.197867"/>
+								<geom name="cabinet11_drawer3_collision_4" pos="-0.233977 0.0 0.0" quat="0.6433715878090981 0.0 0.0 0.0" class="collision" type="box" size="0.0095 0.418341 0.177867"/>
 								<geom name="cabinet11_drawer3_collision_1" pos="0.021031 -0.418233 -0.00926" quat="0.5623933232178348 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.011638"/>
 								<geom name="cabinet11_drawer3_collision_3" pos="0.021031 -0.418233 -0.129424" quat="0.5690382236721888 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041711"/>
 								<geom name="cabinet11_drawer3_collision_2" pos="0.021031 0.418233 -0.129424" quat="0.5690382236721888 0.0 0.0 0.0" class="collision" type="box" size="0.245507 0.008 0.041711"/>
